@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "team": "Team",
+    "references": "References",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Laniak Academy",
+      "subtitle": "High-level basketball training",
+      "cta": "Discover our programs"
+    },
+    "cta": {
+      "title": "Ready to join the team?",
+      "subtitle": "Start your journey today",
+      "button": "Contact us"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Our mission is to train the next generation of basketball players",
+    "description": "Laniak Academy is a high-level basketball academy dedicated to training and developing young talents.",
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Excellence",
+          "description": "We aim for excellence in all aspects of our training"
+        },
+        {
+          "title": "Innovation",
+          "description": "We use the most modern and effective training methods"
+        },
+        {
+          "title": "Commitment",
+          "description": "We are committed to giving our best for every player"
+        }
+      ]
+    }
+  },
+  "programs": {
+    "title": "Our Training Programs",
+    "subtitle": "Programs adapted to all levels, from initiation to high level",
+    "stages": {
+      "title": "Stages",
+      "description": "For beginners as well as professionals"
+    },
+    "perfectionnement": {
+      "title": "Advanced Training",
+      "description": "Program focused on intensive individual training"
+    },
+    "cta": {
+      "title": "Ready to start?",
+      "description": "Join us and begin your journey to excellence",
+      "button": "Contact us"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the passionate experts who make Laniak Academy an exceptional platform",
+    "joinUs": {
+      "title": "Join our team",
+      "description": "We are constantly looking for passionate talents to enrich our team",
+      "cta": "Contact us"
+    }
+  },
+  "references": {
+    "title": "Our References",
+    "subtitle": "Discover the partners and institutions who trust us",
+    "testimonials": {
+      "title": "What they say about us"
+    },
+    "cta": {
+      "title": "Become our partner",
+      "description": "Join our network of partners and contribute to the development of basketball in Africa",
+      "button": "Contact us"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to listen",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  }
+} 

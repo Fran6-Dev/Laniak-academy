@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "programs": "Programmes",
+    "team": "Équipe",
+    "references": "Références",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Laniak Academy",
+      "subtitle": "Formation de haut niveau en basketball",
+      "cta": "Découvrir nos programmes"
+    },
+    "cta": {
+      "title": "Prêt à rejoindre l'équipe ?",
+      "subtitle": "Commencez votre parcours dès aujourd'hui",
+      "button": "Nous contacter"
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "subtitle": "Notre mission est de former la prochaine génération de joueurs de basketball",
+    "description": "Laniak Academy est une académie de basketball de haut niveau dédiée à la formation et au développement des jeunes talents.",
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        {
+          "title": "Excellence",
+          "description": "Nous visons l'excellence dans tous les aspects de notre formation"
+        },
+        {
+          "title": "Innovation",
+          "description": "Nous utilisons les méthodes d'entraînement les plus modernes et efficaces"
+        },
+        {
+          "title": "Engagement",
+          "description": "Nous nous engageons à donner le meilleur de nous-mêmes pour chaque joueur"
+        }
+      ]
+    }
+  },
+  "programs": {
+    "title": "Nos Programmes d'Entraînement",
+    "subtitle": "Des programmes adaptés à tous les niveaux, de l'initiation au haut niveau",
+    "stages": {
+      "title": "Stages",
+      "description": "Pour les débutants comme pour les plus professionnels"
+    },
+    "perfectionnement": {
+      "title": "Perfectionnement",
+      "description": "Programme centré sur l'entraînement intensif individualisé"
+    },
+    "cta": {
+      "title": "Prêt à commencer ?",
+      "description": "Rejoignez-nous et commencez votre parcours vers l'excellence",
+      "button": "Nous contacter"
+    }
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Découvrez les experts passionnés qui font de Laniak Academy une plateforme d'exception",
+    "joinUs": {
+      "title": "Rejoignez notre équipe",
+      "description": "Nous recherchons constamment des talents passionnés pour enrichir notre équipe",
+      "cta": "Contactez-nous"
+    }
+  },
+  "references": {
+    "title": "Nos Références",
+    "subtitle": "Découvrez les partenaires et institutions qui nous font confiance",
+    "testimonials": {
+      "title": "Ce qu'ils disent de nous"
+    },
+    "cta": {
+      "title": "Devenez notre partenaire",
+      "description": "Rejoignez notre réseau de partenaires et contribuez au développement du basketball en Afrique",
+      "button": "Contactez-nous"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes à votre écoute",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer"
+    }
+  }
+} 
