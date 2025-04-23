@@ -173,19 +173,6 @@ const isOpen = ref(false)
 </script>
 
 <style scoped>
-/* Animations pour le menu mobile */
-#mobile-menu {
-  transition: all 0.3s ease-in-out;
-  transform-origin: top;
-  transform: scaleY(0);
-  opacity: 0;
-}
-
-#mobile-menu.block {
-  transform: scaleY(1);
-  opacity: 1;
-}
-
 /* Animation pour les liens de navigation */
 a {
   transition: all 0.3s ease;
