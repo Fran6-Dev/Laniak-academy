@@ -81,7 +81,7 @@
           <div class="md:w-1/3">
             <div class="h-full bg-gray-200 flex items-center justify-center">
               <img 
-                src="../assets/Valeurs.jpeg" 
+                src="../assets/valeurs.jpeg" 
                 alt="Valeurs basketball" 
                 class="rounded-lg shadow-md w-full h-auto object-cover"
               />
