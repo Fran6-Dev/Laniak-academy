@@ -24,7 +24,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Informations de contact
+                {{ $t('contact.info.title') }}
               </h2>
 
               <div class="space-y-8">
@@ -46,9 +46,8 @@
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <h3 class="text-lg font-medium text-black">Téléphone</h3>
-                    <p class="mt-1 text-gray-700">+33 1 23 45 67 89</p>
-                    <p class="mt-1 text-sm text-gray-500">Du lundi au vendredi, 9h-18h</p>
+                    <h3 class="text-lg font-medium text-black">{{ $t('contact.info.phone.title') }}</h3>
+                    <p class="mt-1 text-gray-700">{{ $t('contact.info.phone.value') }}</p>
                   </div>
                 </div>
 
@@ -70,11 +69,11 @@
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <h3 class="text-lg font-medium text-black">Email</h3>
+                    <h3 class="text-lg font-medium text-black">{{ $t('contact.info.email.title') }}</h3>
                     <p class="mt-1 text-gray-700">
-                      laniakbasketballacademy@gmail.com
+                      {{ $t('contact.info.email.value') }}
                     </p>
-                    <p class="mt-1 text-sm text-gray-500">Réponse sous 24-48h</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('contact.info.email.response') }}</p>
                   </div>
                 </div>
 
@@ -102,12 +101,11 @@
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <h3 class="text-lg font-medium text-black">Adresse</h3>
+                    <h3 class="text-lg font-medium text-black">{{ $t('contact.info.address.title') }}</h3>
                     <p class="mt-1 text-gray-700">
-                      123 Avenue du Sport<br>
-                      75001 Paris, France
+                      {{ $t('contact.info.address.value') }}
                     </p>
-                    <p class="mt-1 text-sm text-gray-500">Métro: Ligne 1, Station Sport</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('contact.info.address.metro') }}</p>
                   </div>
                 </div>
               </div>
@@ -137,7 +135,7 @@
                     name="name"
                     id="name"
                     class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 sm:text-sm transition duration-300"
-                    placeholder="Votre nom"
+                    :placeholder="$t('contact.form.name')"
                   />
                 </div>
 
@@ -152,7 +150,7 @@
                     name="email"
                     id="email"
                     class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 sm:text-sm transition duration-300"
-                    placeholder="votre@email.com"
+                    :placeholder="$t('contact.form.email')"
                   />
                 </div>
 
@@ -160,14 +158,14 @@
                   <label
                     for="phone"
                     class="block text-sm font-medium text-gray-700"
-                    >Téléphone</label
+                    >{{ $t('contact.form.phone') }}</label
                   >
                   <input
                     type="tel"
                     name="phone"
                     id="phone"
                     class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 sm:text-sm transition duration-300"
-                    placeholder="+33 6 12 34 56 78"
+                    :placeholder="$t('contact.form.phonePlaceholder')"
                   />
                 </div>
 
@@ -175,19 +173,19 @@
                   <label
                     for="subject"
                     class="block text-sm font-medium text-gray-700"
-                    >Sujet</label
+                    >{{ $t('contact.form.subject') }}</label
                   >
                   <select
                     id="subject"
                     name="subject"
                     class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 sm:text-sm transition duration-300"
                   >
-                    <option value="">Sélectionnez un sujet</option>
-                    <option>Inscription</option>
-                    <option>Information</option>
-                    <option>Visite des installations</option>
-                    <option>Partenariat</option>
-                    <option>Autre</option>
+                    <option value="">{{ $t('contact.form.subjectOptions.select') }}</option>
+                    <option value="registration">{{ $t('contact.form.subjectOptions.registration') }}</option>
+                    <option value="information">{{ $t('contact.form.subjectOptions.information') }}</option>
+                    <option value="visit">{{ $t('contact.form.subjectOptions.visit') }}</option>
+                    <option value="partnership">{{ $t('contact.form.subjectOptions.partnership') }}</option>
+                    <option value="other">{{ $t('contact.form.subjectOptions.other') }}</option>
                   </select>
                 </div>
 
@@ -202,7 +200,7 @@
                     name="message"
                     rows="4"
                     class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 sm:text-sm transition duration-300"
-                    placeholder="Votre message..."
+                    :placeholder="$t('contact.form.messagePlaceholder')"
                   ></textarea>
                 </div>
 
@@ -218,11 +216,10 @@
                     </div>
                     <div class="ml-3 text-sm">
                       <label for="privacy" class="font-medium text-gray-700"
-                        >J'accepte la politique de confidentialité</label
+                        >{{ $t('contact.form.privacy.accept') }}</label
                       >
                       <p class="text-gray-500">
-                        Vos données personnelles seront traitées conformément à
-                        notre politique de confidentialité.
+                        {{ $t('contact.form.privacy.description') }}
                       </p>
                     </div>
                   </div>
@@ -231,13 +228,9 @@
                 <div>
                   <button
                     type="submit"
-                    class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-300 ease-in-out transform hover:scale-105"
+                    class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-300"
                   >
-                    <svg class="h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
                     {{ $t('contact.form.send') }}
-                    Envoyer le message
                   </button>
                 </div>
               </div>
@@ -252,7 +245,7 @@
           <svg class="h-8 w-8 text-orange-500 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          Questions fréquentes
+          {{ $t('contact.faq.title') }}
         </h2>
         <div class="bg-white shadow-xl rounded-lg overflow-hidden">
           <div class="px-6 py-8 sm:p-8">
@@ -262,13 +255,10 @@
                   <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
-                  Comment puis-je inscrire mon enfant à Laniak Academy ?
+                  {{ $t('contact.faq.items.registration.question') }}
                 </h3>
                 <p class="mt-2 text-gray-700">
-                  Pour inscrire votre enfant, vous pouvez remplir le formulaire
-                  de contact ci-dessus, nous appeler ou nous rendre visite. Nous
-                  organiserons ensuite une séance d'essai pour évaluer le niveau
-                  de votre enfant et vous proposer le programme le plus adapté.
+                  {{ $t('contact.faq.items.registration.answer') }}
                 </p>
               </div>
 
@@ -277,12 +267,10 @@
                   <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
-                  Quels sont les âges acceptés ?
+                  {{ $t('contact.faq.items.ages.question') }}
                 </h3>
                 <p class="mt-2 text-gray-700">
-                  Nous acceptons les enfants à partir de 6 ans jusqu'aux jeunes
-                  adultes de 18 ans. Nous proposons également des programmes
-                  pour les adultes amateurs et professionnels.
+                  {{ $t('contact.faq.items.ages.answer') }}
                 </p>
               </div>
 
@@ -291,12 +279,10 @@
                   <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
-                  Quels sont les tarifs des programmes ?
+                  {{ $t('contact.faq.items.pricing.question') }}
                 </h3>
                 <p class="mt-2 text-gray-700">
-                  Les tarifs varient selon le programme et la fréquence des
-                  entraînements. Contactez-nous pour obtenir un devis
-                  personnalisé adapté à vos besoins.
+                  {{ $t('contact.faq.items.pricing.answer') }}
                 </p>
               </div>
 
@@ -305,12 +291,10 @@
                   <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
-                  Proposez-vous des stages pendant les vacances ?
+                  {{ $t('contact.faq.items.camps.question') }}
                 </h3>
                 <p class="mt-2 text-gray-700">
-                  Oui, nous organisons des stages pendant toutes les vacances
-                  scolaires. Ces stages sont l'occasion idéale pour découvrir
-                  notre académie et progresser rapidement.
+                  {{ $t('contact.faq.items.camps.answer') }}
                 </p>
               </div>
             </div>

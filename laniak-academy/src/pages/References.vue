@@ -4,10 +4,10 @@
       <!-- Header Section -->
       <div class="text-center mb-16">
         <h1 class="text-4xl font-extrabold text-black sm:text-5xl">
-          Nos Références
+          {{ $t('references.title') }}
         </h1>
         <p class="mt-4 text-xl text-gray-700 max-w-3xl mx-auto">
-          Découvrez les joueurs qui ont fait confiance à notre académie
+          {{ $t('references.subtitle') }}
         </p>
       </div>
 
@@ -17,14 +17,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://cdn.nba.com/headshots/nba/latest/1040x760/1629690.png" alt="Mokoka Adam">
+            <img class="w-full h-64 object-cover" src="https://cdn.nba.com/headshots/nba/latest/1040x760/1629690.png" :alt="$t('references.players.mokoka.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">NBA</span>
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">PRO A</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.mokoka.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black">Mokoka Adam</h3>
+            <h3 class="text-xl font-bold text-black">{{ $t('references.players.mokoka.name') }}</h3>
           </div>
         </div>
 
@@ -32,14 +31,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://www.basketeurope.com/content/images/size/w1304/format/webp/wp-content/uploads/2022/06/sekou-doumbouya.png" alt="Sekou Doumbouya">
+            <img class="w-full h-64 object-cover" src="https://www.basketeurope.com/content/images/size/w1304/format/webp/wp-content/uploads/2022/06/sekou-doumbouya.png" :alt="$t('references.players.sekou.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">NBA</span>
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">PRO A</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.sekou.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black">Sekou Doumbouya</h3>
+            <h3 class="text-xl font-bold text-black">{{ $t('references.players.sekou.name') }}</h3>
           </div>
         </div>
 
@@ -47,13 +45,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://www.proballers.com/media/cache/resize_600_png/https---www.proballers.com/ul/player/hifi2-1ef84144-58aa-6722-8f1e-1faffbf29d8b.png" alt="Hifi Nadir">
+            <img class="w-full h-64 object-cover" src="https://www.proballers.com/media/cache/resize_600_png/https---www.proballers.com/ul/player/hifi2-1ef84144-58aa-6722-8f1e-1faffbf29d8b.png" :alt="$t('references.players.hifi.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">PRO A</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.hifi.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black mb-2">Hifi Nadir</h3>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t('references.players.hifi.name') }}</h3>
           </div>
         </div>
 
@@ -61,13 +59,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://www.basketstats.fr/images/faces/3658.png" alt="Malick Nguirane Maodo">
+            <img class="w-full h-64 object-cover" src="https://www.basketstats.fr/images/faces/3658.png" :alt="$t('references.players.malick.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">1ère division espagnole</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.malick.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black mb-2">Malick Nguirane Maodo</h3>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t('references.players.malick.name') }}</h3>
           </div>
         </div>
 
@@ -75,13 +73,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://www.proballers.com/media/cache/resize_600_png/https---www.proballers.com/ul/player/5-assemian-moulare2-1ef80e12-580c-6424-b99c-f39182925cc8.png" alt="Moulare Assemiam">
+            <img class="w-full h-64 object-cover" src="https://www.proballers.com/media/cache/resize_600_png/https---www.proballers.com/ul/player/5-assemian-moulare2-1ef80e12-580c-6424-b99c-f39182925cc8.png" :alt="$t('references.players.moulare.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">PRO A - International Ivorien</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.moulare.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black mb-2">Moulare Assemiam</h3>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t('references.players.moulare.name') }}</h3>
           </div>
         </div>
 
@@ -89,13 +87,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/vdn_864w/2021/09/27/node_1075670/53557079/public/2021/09/27/B9728457373Z.1_20210927145026_000%2BGB7J11HSK.2-0.jpg?itok=94gjejnI1632747032" alt="Niangané L'Hassane">
+            <img class="w-full h-64 object-cover" src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/vdn_864w/2021/09/27/node_1075670/53557079/public/2021/09/27/B9728457373Z.1_20210927145026_000%2BGB7J11HSK.2-0.jpg?itok=94gjejnI1632747032" :alt="$t('references.players.niangane.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">International Congo</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.niangane.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black mb-2">Niangané L'Hassane</h3>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t('references.players.niangane.name') }}</h3>
           </div>
         </div>
 
@@ -103,13 +101,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4896365.png&w=350&h=254" alt="Alpha Adama">
+            <img class="w-full h-64 object-cover" src="https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4896365.png&w=350&h=254" :alt="$t('references.players.alpha.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">NCAA - Équipe de France jeune</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.alpha.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black mb-2">Alpha Adama</h3>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t('references.players.alpha.name') }}</h3>
           </div>
         </div>
 
@@ -117,67 +115,13 @@
         <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
           <div class="h-2 bg-orange-500"></div>
           <div class="relative">
-            <img class="w-full h-64 object-cover" src="https://static.vecteezy.com/system/resources/previews/002/685/300/non_2x/abstract-basketball-player-dribbling-with-ball-on-a-white-background-illustration-vector.jpg" alt="Jeunes athlètes">
+            <img class="w-full h-64 object-cover" src="https://static.vecteezy.com/system/resources/previews/002/685/300/non_2x/abstract-basketball-player-dribbling-with-ball-on-a-white-background-illustration-vector.jpg" :alt="$t('references.players.youngAthletes.name')">
             <div class="absolute top-4 right-4 flex space-x-2">
-              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">Haut niveau</span>
+              <span class="px-3 py-1 text-xs font-bold text-white bg-orange-500 rounded-full shadow-md">{{ $t('references.players.youngAthletes.leagues') }}</span>
             </div>
           </div>
           <div class="px-6 py-5">
-            <h3 class="text-xl font-bold text-black mb-2">Une trentaine de jeunes athlètes en NCAA de la PRO A à la N3 et les jeunes en devenir</h3>
-          </div>
-        </div>
-      </div>
-
-      <!-- Testimonials Section -->
-      <div class="mt-16">
-        <h2 class="text-3xl font-extrabold text-black text-center mb-8">Ce qu'ils disent de nous</h2>
-        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <!-- Testimonial 1 -->
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center mb-4">
-              <div class="h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center">
-                <span class="text-orange-500 font-bold">TD</span>
-              </div>
-              <div class="ml-4">
-                <h4 class="text-lg font-medium text-black">Thomas Dubois</h4>
-                <p class="text-sm text-gray-500">Meneur, ASVEL Lyon-Villeurbanne</p>
-              </div>
-            </div>
-            <p class="text-gray-700 italic">
-              "Laniak Academy a été déterminante dans mon parcours. Les entraîneurs m'ont appris non seulement les fondamentaux du basketball, mais aussi la mentalité nécessaire pour réussir au plus haut niveau."
-            </p>
-          </div>
-
-          <!-- Testimonial 2 -->
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center mb-4">
-              <div class="h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center">
-                <span class="text-orange-500 font-bold">SM</span>
-              </div>
-              <div class="ml-4">
-                <h4 class="text-lg font-medium text-black">Sophie Martin</h4>
-                <p class="text-sm text-gray-500">Ailière, Bourges Basket</p>
-              </div>
-            </div>
-            <p class="text-gray-700 italic">
-              "Je dois tout à Laniak Academy. Leur approche holistique de la formation m'a permis de développer non seulement mes compétences techniques, mais aussi ma confiance en moi et mon leadership."
-            </p>
-          </div>
-
-          <!-- Testimonial 3 -->
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center mb-4">
-              <div class="h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center">
-                <span class="text-orange-500 font-bold">LP</span>
-              </div>
-              <div class="ml-4">
-                <h4 class="text-lg font-medium text-black">Lucas Petit</h4>
-                <p class="text-sm text-gray-500">Pivot, Real Madrid Baloncesto</p>
-              </div>
-            </div>
-            <p class="text-gray-700 italic">
-              "L'attention personnalisée et le suivi individualisé à Laniak Academy ont été essentiels pour mon développement. Ils ont su identifier mes forces et travailler sur mes faiblesses."
-            </p>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t('references.players.youngAthletes.name') }}</h3>
           </div>
         </div>
       </div>
@@ -186,14 +130,14 @@
       <div class="mt-16 bg-orange-500 rounded-xl shadow-xl overflow-hidden">
         <div class="px-6 py-8 sm:p-8 text-center">
           <h2 class="text-3xl font-bold text-white mb-4">
-            Rejoignez nos références
+            {{ $t('references.cta.title') }}
           </h2>
           <p class="text-lg text-white mb-6">
-            Devenez la prochaine star du basket-ball avec notre programme d'entraînement personnalisé.
+            {{ $t('references.cta.description') }}
           </p>
           <div class="mt-6">
             <a href="/contact" class="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-lg text-orange-600 bg-white hover:bg-gray-50 transition duration-300 ease-in-out">
-              Nous contacter
+              {{ $t('references.cta.button') }}
             </a>
           </div>
         </div>

@@ -6,7 +6,7 @@
       >
         <!-- Partenaires Section -->
         <div class="flex flex-col items-center md:items-start space-y-4">
-          <h3 class="text-lg font-semibold text-gray-900">Nos Partenaires</h3>
+          <h3 class="text-lg font-semibold text-gray-900">{{ $t('footer.partners') }}</h3>
           <div class="flex space-x-8">
             <!-- Placeholder pour les logos des partenaires -->
             <div
@@ -32,7 +32,7 @@
 
         <!-- Instagram Section -->
         <div class="flex flex-col items-center md:items-end space-y-4">
-          <h3 class="text-lg font-semibold text-gray-900">Suivez-nous</h3>
+          <h3 class="text-lg font-semibold text-gray-900">{{ $t('footer.followUs') }}</h3>
           <a
             href="https://www.instagram.com/laniakbasketballacademy/"
             target="_blank"
@@ -61,8 +61,7 @@
         class="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500"
       >
         <p>
-          &copy; {{ new Date().getFullYear() }} Laniak Academy. Tous droits
-          réservés.
+          &copy; {{ new Date().getFullYear() }} Laniak Academy. {{ $t('footer.copyright') }}
         </p>
       </div>
     </div>

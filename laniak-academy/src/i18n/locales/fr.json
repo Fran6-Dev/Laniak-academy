@@ -11,7 +11,31 @@
     "hero": {
       "title": "Laniak Academy",
       "subtitle": "Formation de haut niveau en basketball",
-      "cta": "Découvrir nos programmes"
+      "cta": "Découvrir nos programmes",
+      "description": "Votre parcours vers l'excellence basketball commence ici. De l'amateur au professionnel, nous formons les champions de demain."
+    },
+    "features": {
+      "title": "Notre approche",
+      "subtitle": "Une formation complète et personnalisée",
+      "description": "Chez Laniak Academy, nous croyons en une approche holistique du basketball, combinant technique, tactique et préparation physique.",
+      "items": [
+        {
+          "title": "Technique individuelle",
+          "description": "Perfectionnez vos fondamentaux et développez votre jeu personnel avec nos entraîneurs experts."
+        },
+        {
+          "title": "Tactique collective",
+          "description": "Apprenez à jouer en équipe et à comprendre les stratégies du basketball moderne."
+        },
+        {
+          "title": "Préparation physique",
+          "description": "Renforcez votre condition physique et prévenez les blessures avec nos programmes d'entraînement spécialisés."
+        },
+        {
+          "title": "Mental et leadership",
+          "description": "Développez votre mental de gagnant et vos qualités de leader sur et en dehors du terrain."
+        }
+      ]
     },
     "cta": {
       "title": "Prêt à rejoindre l'équipe ?",
@@ -19,12 +43,35 @@
       "button": "Nous contacter"
     }
   },
+  "footer": {
+    "partners": "Nos Partenaires",
+    "followUs": "Suivez-nous",
+    "copyright": "Tous droits réservés."
+  },
   "about": {
-    "title": "À propos de nous",
-    "subtitle": "Notre mission est de former la prochaine génération de joueurs de basketball",
+    "title": "Qui sommes nous",
+    "subtitle": "Découvrez l'histoire, la mission et les valeurs de Laniak Academy",
     "description": "Laniak Academy est une académie de basketball de haut niveau dédiée à la formation et au développement des jeunes talents.",
+    "story": {
+      "paragraph1": "Président et fondateur de Laniak Basketball Academy, Modibo Niakate est un coach reconnu pour sa rigueur et son goût de l'effort.",
+      "paragraph2": "L'international et capitaine de l'équipe du Mali, avec laquelle il finira meilleur marqueur de la Coupe d'Afrique des Nation en Angola, combine avec excellence le schéma européen et américain de part son passage à l'université de Cleveland States, où il finira aussi meilleur marqueur.",
+      "paragraph3": "Sa carrière de basketteur professionnel aura été couronnée de succès notamment avec sa victoire de la semaine des AS ainsi que son sacre de champion de France Pro A avec Roanne en 2007.",
+      "paragraph4": "Surnommé « LANIAK » il est une référence sur le circuit du basketball français."
+    },
+    "mission": {
+      "title": "Notre approche du coaching",
+      "paragraph1": "Parce que chaque joueur est unique, il mérite une méthodologie de coaching individualisée et propre à ses besoins. Notre métier consiste à aller à la découverte du joueur, de pénétrer dans son univers afin de comprendre comment il pense, ce qu'il ressent. Ainsi, l'objectif est de rassembler toutes les pièces du puzzle qui constituent le joueur pour être en mesure de prendre les bonnes décisions.",
+      "paragraph2": "Nous sommes dans un laboratoire au quotidien et faisons très attention aux petits détails car nous avons la conviction que cette attention fait une grande différence."
+    },
     "values": {
       "title": "Nos Valeurs",
+      "paragraph1": "Laniak ACADEMY c'est une communauté qui regroupe des individus en devenir avec une volonté de s'améliorer et d'être meilleur.",
+      "paragraph2": "On s'y attache à y allier plaisir et effort pour en faire ressortir une nouvelle mentalité.",
+      "paragraph3": "La solidarité, le respect, la discipline, l'esprit d'équipe sont les valeurs qui prédominent et qui y sont transmises.",
+      "paragraph4": "Le partage de valeurs et de but communs y est essentiel car c'est ce qui conduira au challenge de soi à travers les autres. Se donner à 1000% est le principe fondateur qui mène à la réussite.",
+      "paragraph5": "Laniak ACADEMY a pour but d'aider à cheminer vers la réalisation de soi.",
+      "paragraph6": "Pour se faire, on y apprend à se challenger, à conquérir un esprit ouvert et combatif.",
+      "paragraph7": "Laniak ACADEMY vous donne la possibilité d'exprimer votre potentiel de manière individuelle et collective afin de progresser.",
       "items": [
         {
           "title": "Excellence",
@@ -39,6 +86,14 @@
           "description": "Nous nous engageons à donner le meilleur de nous-mêmes pour chaque joueur"
         }
       ]
+    },
+    "gallery": {
+      "title": "Notre Académie en images"
+    },
+    "cta": {
+      "title": "Prêt à rejoindre notre communauté ?",
+      "description": "Commencez votre parcours d'apprentissage avec Laniak Academy.",
+      "button": "Contactez-nous"
     }
   },
   "programs": {
@@ -46,21 +101,71 @@
     "subtitle": "Des programmes adaptés à tous les niveaux, de l'initiation au haut niveau",
     "stages": {
       "title": "Stages",
-      "description": "Pour les débutants comme pour les plus professionnels"
+      "description": "Pour les débutants comme pour les plus professionnels",
+      "age": "Dès 9 ans",
+      "schedule": "Tout au long de l'année",
+      "youth": "Pour les jeunes : option anglaise (vacances scolaires comprises : Entrainement physique & autres sport, tournois, etc.)"
     },
     "perfectionnement": {
       "title": "Perfectionnement",
-      "description": "Programme centré sur l'entraînement intensif individualisé"
+      "description": "La formule « Centre de perfectionnement basket » offre un programme centré sur l'entrainement intensif individualisé.",
+      "target": "Elle est destinée aux jeunes joueurs et requiert un niveau minimum d'entrée."
+    },
+    "openGym": {
+      "title": "Open Gym",
+      "description": "Créneaux nocturnes afin de leur offrir un accès aux salles et la possibilité de s'exprimer librement (hors schéma club).",
+      "sessions": "Certaines sessions seront drivé sur différentes thématiques de jeux et sur un travail de perfectionnement."
+    },
+    "threeOnThree": {
+      "title": "3x3",
+      "description": "Développer des equipes de 3x3 à partir de U15",
+      "tournament": "Entraînement et participation au tournoi officiel"
+    },
+    "strength": {
+      "title": "Renforcement",
+      "description": "Différents programmes adaptés aux athlètes selon le diagnostique fait à l'entrée de la session.",
+      "benefits": "Le renforcement musculaire est nécessaire afin d'atteindre un niveau de perfectionnement + dans toutes disciplines."
+    },
+    "recovery": {
+      "title": "Récupération",
+      "description": "Séances dédiées à la récupération musculaire. Différents outils pourront être utilisés tel que les étirements, les bains à remous, …"
+    },
+    "individual": {
+      "title": "Tournoi des académies",
+      "description": "Donner de la visibilité au système « d'Académies » en France.",
+      "benefits": "Organisation d'un tournoi international annuel à Cergy."
     },
     "cta": {
-      "title": "Prêt à commencer ?",
-      "description": "Rejoignez-nous et commencez votre parcours vers l'excellence",
+      "title": "Vous ne trouvez pas ce qui vous convient ?",
+      "description": "Contactez-nous pour discuter de vos besoins spécifiques et nous créerons un programme sur mesure pour vous.",
       "button": "Nous contacter"
     }
   },
   "team": {
     "title": "Notre Équipe",
     "subtitle": "Découvrez les experts passionnés qui font de Laniak Academy une plateforme d'exception",
+    "members": {
+      "modibo": {
+        "name": "Niakate Modibo",
+        "role": "Président Fondateur"
+      },
+      "jeanPierre": {
+        "name": "Louvenor Jean-Pierre",
+        "role": "Vice Président"
+      },
+      "abdel": {
+        "name": "Raho Adbel-Galile",
+        "role": "Secrétaire"
+      },
+      "anderson": {
+        "name": "Dieujust Anderson",
+        "role": "Conseiller Technique"
+      },
+      "rokiatou": {
+        "name": "Niakate Rokiatou",
+        "role": "Tresorière"
+      }
+    },
     "joinUs": {
       "title": "Rejoignez notre équipe",
       "description": "Nous recherchons constamment des talents passionnés pour enrichir notre équipe",
@@ -69,24 +174,114 @@
   },
   "references": {
     "title": "Nos Références",
-    "subtitle": "Découvrez les partenaires et institutions qui nous font confiance",
+    "subtitle": "Découvrez les joueurs qui ont fait confiance à notre académie",
     "testimonials": {
       "title": "Ce qu'ils disent de nous"
     },
+    "players": {
+      "mokoka": {
+        "name": "Mokoka Adam",
+        "leagues": "NBA - PRO A"
+      },
+      "sekou": {
+        "name": "Sekou Doumbouya",
+        "leagues": "NBA - PRO A"
+      },
+      "hifi": {
+        "name": "Hifi Nadir",
+        "leagues": "PRO A"
+      },
+      "malick": {
+        "name": "Malick Nguirane Maodo",
+        "leagues": "1ère division espagnole"
+      },
+      "moulare": {
+        "name": "Moulare Assemiam",
+        "leagues": "PRO A - International Ivorien"
+      },
+      "niangane": {
+        "name": "Niangané L'Hassane",
+        "leagues": "International Congo"
+      },
+      "alpha": {
+        "name": "Alpha Adama",
+        "leagues": "NCAA - Équipe de France jeune"
+      },
+      "youngAthletes": {
+        "name": "Une trentaine de jeunes athlètes en NCAA de la PRO A à la N3 et les jeunes en devenir",
+        "leagues": "Haut niveau"
+      }
+    },
     "cta": {
-      "title": "Devenez notre partenaire",
-      "description": "Rejoignez notre réseau de partenaires et contribuez au développement du basketball en Afrique",
-      "button": "Contactez-nous"
+      "title": "Rejoignez nos références",
+      "description": "Devenez la prochaine star du basket-ball avec notre programme d'entraînement personnalisé.",
+      "button": "Nous contacter"
     }
   },
   "contact": {
     "title": "Contactez-nous",
     "subtitle": "Nous sommes à votre écoute",
+    "info": {
+      "title": "Informations de contact",
+      "phone": {
+        "title": "Téléphone",
+        "value": "+33 6 58 97 78 95"
+      },
+      "email": {
+        "title": "Email",
+        "value": "laniakbasketballacademy@gmail.com",
+        "response": "Réponse sous 24-48h"
+      },
+      "address": {
+        "title": "Adresse",
+        "value": "123 Avenue du Sport, 75001 Paris, France",
+        "metro": "Métro: Ligne 1, Station Sport"
+      }
+    },
     "form": {
+      "title": "Envoyez-nous un message",
       "name": "Nom",
       "email": "Email",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sélectionnez un sujet",
+      "subjectOptions": {
+        "select": "Sélectionnez un sujet",
+        "registration": "Inscription",
+        "information": "Information",
+        "visit": "Visite des installations",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      },
       "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "privacy": {
+        "accept": "J'accepte la politique de confidentialité",
+        "description": "Vos données personnelles seront traitées conformément à notre politique de confidentialité."
+      },
       "send": "Envoyer"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": {
+        "registration": {
+          "question": "Comment puis-je inscrire mon enfant à Laniak Academy ?",
+          "answer": "Pour inscrire votre enfant, vous pouvez remplir le formulaire de contact ci-dessus, nous appeler ou nous rendre visite. Nous organiserons ensuite une séance d'essai pour évaluer le niveau de votre enfant et vous proposer le programme le plus adapté."
+        },
+        "ages": {
+          "question": "Quels sont les âges acceptés ?",
+          "answer": "Nous acceptons les enfants à partir de 6 ans jusqu'aux jeunes adultes de 18 ans. Nous proposons également des programmes pour les adultes amateurs et professionnels."
+        },
+        "pricing": {
+          "question": "Quels sont les tarifs des programmes ?",
+          "answer": "Les tarifs varient selon le programme et la fréquence des entraînements. Contactez-nous pour obtenir un devis personnalisé adapté à vos besoins."
+        },
+        "camps": {
+          "question": "Proposez-vous des stages pendant les vacances ?",
+          "answer": "Oui, nous organisons des stages pendant toutes les vacances scolaires. Ces stages sont l'occasion idéale pour découvrir notre académie et progresser rapidement."
+        }
+      }
     }
   }
 } 

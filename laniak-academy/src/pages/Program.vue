@@ -4,11 +4,10 @@
       <!-- Header Section -->
       <div class="text-center mb-16">
         <h1 class="text-4xl font-extrabold text-black sm:text-5xl">
-          Nos Programmes d'Entraînement
+          {{ $t('programs.title') }}
         </h1>
         <p class="mt-4 text-xl text-gray-700 max-w-3xl mx-auto">
-          Des programmes adaptés à tous les niveaux, de l'initiation au haut
-          niveau
+          {{ $t('programs.subtitle') }}
         </p>
       </div>
       <!-- Programs Grid -->
@@ -24,31 +23,31 @@
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">Stages</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.stages.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Pour les débutants comme pour les plus profesionnels</span>
+                <span class="text-gray-700">{{ $t('programs.stages.description') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Dès 9 ans</span>
+                <span class="text-gray-700">{{ $t('programs.stages.age') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Tout au long de l'année</span>
+                <span class="text-gray-700">{{ $t('programs.stages.schedule') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Pour les jeunes : option anglaise (vacances scolaires comprises : Entrainement physique & autres sport, tournois, etc.)</span>
+                <span class="text-gray-700">{{ $t('programs.stages.youth') }}</span>
               </li>
             </ul>
           </div>
@@ -65,19 +64,19 @@
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">Perfectionnement</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.perfectionnement.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">La formule « Centre de perfectionnement basket » offre un programme centré sur l' entrainement intensif individualisé.</span>
+                <span class="text-gray-700">{{ $t('programs.perfectionnement.description') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Elle est destinée aux jeunes joueurs et requiert un niveau minimum d' entrée.</span>
+                <span class="text-gray-700">{{ $t('programs.perfectionnement.target') }}</span>
               </li>
             </ul>
           </div>
@@ -94,19 +93,19 @@
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">Open Gym</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.openGym.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Créneaux nocturnes afin de leur offrir un accès aux salles et la possibilité de s' exprimer librement (hors schéma club).</span>
+                <span class="text-gray-700">{{ $t('programs.openGym.description') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Certaines sessions seront drivé sur différentes thématiques de jeux et sur un travail de perfectionnement.</span>
+                <span class="text-gray-700">{{ $t('programs.openGym.sessions') }}</span>
               </li>
             </ul>
           </div>
@@ -123,19 +122,19 @@
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">3x3</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.threeOnThree.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Développer des equipes de 3x3 à partir de U15</span>
+                <span class="text-gray-700">{{ $t('programs.threeOnThree.description') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Entraînement et participation au tournoi officiel</span>
+                <span class="text-gray-700">{{ $t('programs.threeOnThree.tournament') }}</span>
               </li>
             </ul>
           </div>
@@ -152,19 +151,19 @@
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">Renforcement</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.strength.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Différents programmes adaptés aux athlètes selon le diagnostique fait à l' entrée de la session.</span>
+                <span class="text-gray-700">{{ $t('programs.strength.description') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Le renforcement musculaire est nécessaire afin d' atteindre un niveau de perfectionnement + dans toutes disciplines.</span>
+                <span class="text-gray-700">{{ $t('programs.strength.benefits') }}</span>
               </li>
             </ul>
           </div>
@@ -181,13 +180,13 @@
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">Récupération</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.recovery.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Séances dédiées à la récupération musculaire. Différents outils pourront être utilisés tel que les étirements, les bains à remous, …</span>
+                <span class="text-gray-700">{{ $t('programs.recovery.description') }}</span>
               </li>
             </ul>
           </div>
@@ -200,58 +199,23 @@
             <div class="flex items-center justify-center mb-4">
               <div class="p-2 bg-orange-100 rounded-full">
                 <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                 </svg>
               </div>
             </div>
-            <h3 class="text-xl font-bold text-black mb-4">Tournoi des académies</h3>
+            <h3 class="text-xl font-bold text-black mb-4">{{ $t('programs.individual.title') }}</h3>
             <ul class="space-y-3 text-left">
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Donner de la visibilité au système « d'Académies » en France.</span>
+                <span class="text-gray-700">{{ $t('programs.individual.description') }}</span>
               </li>
               <li class="flex items-start">
                 <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                <span class="text-gray-700">Organisation d' un tournoi international annuel à Cergy.</span>
-              </li>
-              <li class="flex items-start">
-                <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span class="text-gray-700">Participation à des tournois nationaux et internationaux.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Program 8 -->
-        <div class="bg-white overflow-hidden shadow-lg rounded-xl transition duration-300 ease-in-out hover:shadow-xl hover:scale-105">
-          <div class="h-2 bg-orange-500"></div>
-          <div class="px-6 py-5 text-center">
-            <div class="flex items-center justify-center mb-4">
-              <div class="p-2 bg-orange-100 rounded-full">
-                <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                </svg>
-              </div>
-            </div>
-            <h3 class="text-xl font-bold text-black mb-4">Séance vidéo</h3>
-            <ul class="space-y-3 text-left">
-              <li class="flex items-start">
-                <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span class="text-gray-700">Analyse d' entraînement et d' après match avec le joueur.</span>
-              </li>
-              <li class="flex items-start">
-                <svg class="w-4 h-4 text-orange-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span class="text-gray-700">Etablissement d' un diagnostique.</span>
+                <span class="text-gray-700">{{ $t('programs.individual.benefits') }}</span>
               </li>
             </ul>
           </div>
@@ -259,19 +223,16 @@
       </div>
 
       <!-- CTA Section -->
-      <div class="mt-16 bg-orange-500 rounded-xl shadow-xl overflow-hidden">
-        <div class="px-6 py-8 sm:p-8 text-center">
-          <h2 class="text-3xl font-bold text-white mb-4">
-            Vous ne trouvez pas ce qui vous convient ?
-          </h2>
-          <p class="text-lg text-white mb-6">
-            Contactez-nous pour discuter de vos besoins spécifiques et nous créerons un programme sur mesure pour vous.
-          </p>
-          <div class="mt-6">
-            <a href="/contact" class="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-lg text-orange-600 bg-white hover:bg-gray-50 transition duration-300 ease-in-out">
-              Nous contacter
-            </a>
-          </div>
+      <div class="mt-16 text-center">
+        <h2 class="text-3xl font-bold text-black">{{ $t('programs.cta.title') }}</h2>
+        <p class="mt-4 text-xl text-gray-700">{{ $t('programs.cta.description') }}</p>
+        <div class="mt-8">
+          <RouterLink
+            to="/contact"
+            class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600"
+          >
+            {{ $t('programs.cta.button') }}
+          </RouterLink>
         </div>
       </div>
     </div>
@@ -279,5 +240,5 @@
 </template>
 
 <script setup>
-// Logique de la page Programme
+import { RouterLink } from 'vue-router'
 </script>

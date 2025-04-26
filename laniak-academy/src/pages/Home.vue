@@ -5,23 +5,23 @@
       <div class="absolute inset-0">
         <img
           class="w-full h-full object-cover opacity-50"
-          src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+          src="../assets/Carou21.jpg"
           alt="Basketball court"
         />
       </div>
       <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-          Laniak Academy
+          {{ $t('home.hero.title') }}
         </h1>
         <p class="mt-6 text-xl text-white max-w-3xl">
-          Votre parcours vers l'excellence basketball commence ici. De l'amateur au professionnel, nous formons les champions de demain.
+          {{ $t('home.hero.description') }}
         </p>
         <div class="mt-10">
           <RouterLink
             to="/program"
             class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out"
           >
-            Découvrir nos programmes
+            {{ $t('home.hero.cta') }}
           </RouterLink>
         </div>
       </div>
@@ -31,12 +31,12 @@
     <div class="py-12 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
-          <h2 class="text-base text-orange-500 font-semibold tracking-wide uppercase">Notre approche</h2>
+          <h2 class="text-base text-orange-500 font-semibold tracking-wide uppercase">{{ $t('home.features.title') }}</h2>
           <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
-            Une formation complète et personnalisée
+            {{ $t('home.features.subtitle') }}
           </p>
           <p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-            Chez Laniak Academy, nous croyons en une approche holistique du basketball, combinant technique, tactique et préparation physique.
+            {{ $t('home.features.description') }}
           </p>
         </div>
 
@@ -49,9 +49,9 @@
                 </svg>
               </div>
               <div class="ml-16">
-                <h3 class="text-lg leading-6 font-medium text-black">Technique individuelle</h3>
+                <h3 class="text-lg leading-6 font-medium text-black">{{ $t('home.features.items.0.title') }}</h3>
                 <p class="mt-2 text-base text-gray-700">
-                  Perfectionnez vos fondamentaux et développez votre jeu personnel avec nos entraîneurs experts.
+                  {{ $t('home.features.items.0.description') }}
                 </p>
               </div>
             </div>
@@ -63,9 +63,9 @@
                 </svg>
               </div>
               <div class="ml-16">
-                <h3 class="text-lg leading-6 font-medium text-black">Tactique collective</h3>
+                <h3 class="text-lg leading-6 font-medium text-black">{{ $t('home.features.items.1.title') }}</h3>
                 <p class="mt-2 text-base text-gray-700">
-                  Apprenez à jouer en équipe et à comprendre les stratégies du basketball moderne.
+                  {{ $t('home.features.items.1.description') }}
                 </p>
               </div>
             </div>
@@ -77,9 +77,9 @@
                 </svg>
               </div>
               <div class="ml-16">
-                <h3 class="text-lg leading-6 font-medium text-black">Préparation physique</h3>
+                <h3 class="text-lg leading-6 font-medium text-black">{{ $t('home.features.items.2.title') }}</h3>
                 <p class="mt-2 text-base text-gray-700">
-                  Renforcez votre condition physique et prévenez les blessures avec nos programmes d'entraînement spécialisés.
+                  {{ $t('home.features.items.2.description') }}
                 </p>
               </div>
             </div>
@@ -91,9 +91,9 @@
                 </svg>
               </div>
               <div class="ml-16">
-                <h3 class="text-lg leading-6 font-medium text-black">Mental et leadership</h3>
+                <h3 class="text-lg leading-6 font-medium text-black">{{ $t('home.features.items.3.title') }}</h3>
                 <p class="mt-2 text-base text-gray-700">
-                  Développez votre mental de gagnant et vos qualités de leader sur et en dehors du terrain.
+                  {{ $t('home.features.items.3.description') }}
                 </p>
               </div>
             </div>
@@ -125,5 +125,5 @@
 </template>
 
 <script setup>
-// Logique de la page d'accueil
+import { RouterLink } from 'vue-router'
 </script> 
