@@ -5,6 +5,7 @@ import Program from '../pages/Program.vue'
 import Team from '../pages/Team.vue'
 import Contact from '../pages/Contact.vue'
 import References from '../pages/References.vue'
+import Equipement from '../pages/Equipement.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/references',
     name: 'References',
     component: References
+  },
+  {
+    path: '/equipement',
+    name: 'Equipement',
+    component: Equipement
   }
 ]
 

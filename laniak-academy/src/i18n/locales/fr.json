@@ -5,7 +5,8 @@
     "programs": "Programmes",
     "team": "Équipe",
     "references": "Références",
-    "contact": "Contact"
+    "contact": "Contact",
+    "equipement": "Équipement"
   },
   "home": {
     "hero": {
@@ -282,6 +283,48 @@
           "answer": "Oui, nous organisons des stages pendant toutes les vacances scolaires. Ces stages sont l'occasion idéale pour découvrir notre académie et progresser rapidement."
         }
       }
+    }
+  },
+  "equipement": {
+    "hero": {
+      "title": "Collection Laniak",
+      "description": "Découvrez notre gamme exclusive de produits de basketball"
+    },
+    "features": {
+      "title": "Nos Produits",
+      "subtitle": "Équipement de qualité pour votre performance",
+      "description": "Une sélection de produits de haute qualité pour les joueurs exigeants."
+    },
+    "products": {
+      "item1": {
+        "title": "T-shirt Laniak Pro Noir",
+        "description": "T-shirt professionnel avec technologie d'évacuation de la transpiration"
+      },
+      "item2": {
+        "title": "T-shirt Laniak Pro Blanc",
+        "description": "T-shirt professionnel avec technologie d'évacuation de la transpiration"
+      },
+      "item3": {
+        "title": "Sweat Laniak Pro Noir",
+        "description": "Sweat professionnel avec technologie d'évacuation de la transpiration"
+      },
+      "item4": {
+        "title": "Manchette Laniak Elite Noir",
+        "description": "Manchette de performance avec design moderne et confort optimal"
+      },
+      "item5": {
+        "title": "Manchette Laniak Elite Blanche",
+        "description": "Manchette de performance avec design moderne et confort optimal"
+      },
+      "item6": {
+        "title": "Chaussettes Laniak Pro Noir",
+        "description": "Chaussettes de performance avec design moderne et confort optimal"
+      }
+    },
+    "cta": {
+      "title": "Intéressé par nos produits ?",
+      "subtitle": "Contactez-nous pour plus d'informations",
+      "button": "Nous contacter"
     }
   }
 } 

@@ -5,7 +5,8 @@
     "programs": "Programs",
     "team": "Team",
     "references": "References",
-    "contact": "Contact"
+    "contact": "Contact",
+    "equipement": "Equipment"
   },
   "home": {
     "hero": {
@@ -282,6 +283,52 @@
           "answer": "Yes, we organize camps during all school holidays. These camps are the ideal opportunity to discover our academy and progress quickly."
         }
       }
+    }
+  },
+  "equipement": {
+    "hero": {
+      "title": "Laniak Collection",
+      "description": "Discover our exclusive range of basketball products"
+    },
+    "features": {
+      "title": "Our Products",
+      "subtitle": "Quality equipment for your performance",
+      "description": "A selection of high-quality products for demanding players."
+    },
+    "products": {
+      "item1": {
+        "title": "Laniak Pro Jersey",
+        "description": "Professional jersey with sweat-wicking technology"
+      },
+      "item2": {
+        "title": "Laniak Elite Shorts",
+        "description": "Performance shorts with modern design and optimal comfort"
+      },
+      "item3": {
+        "title": "Laniak Signature Ball",
+        "description": "Official ball with excellent grip"
+      },
+      "item4": {
+        "title": "Laniak Premium Bag",
+        "description": "Spacious and durable sports bag for all your equipment"
+      },
+      "item5": {
+        "title": "Laniak Court Shoes",
+        "description": "Basketball shoes with optimal support and cushioning"
+      },
+      "item6": {
+        "title": "Laniak Accessories",
+        "description": "Complete range of accessories for your training"
+      },
+      "item7": {
+        "title": "Training Equipment",
+        "description": "Professional equipment for your development"
+      }
+    },
+    "cta": {
+      "title": "Interested in our products?",
+      "subtitle": "Contact us for more information",
+      "button": "Contact Us"
     }
   }
 } 
