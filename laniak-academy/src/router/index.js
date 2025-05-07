@@ -6,6 +6,7 @@ import Team from '../pages/Team.vue'
 import Contact from '../pages/Contact.vue'
 import References from '../pages/References.vue'
 import Equipement from '../pages/Equipement.vue'
+import Contact2 from '../pages/Contact2.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/equipement',
     name: 'Equipement',
     component: Equipement
+  },
+  {
+    path: '/contact2',
+    name: 'Contact2',
+    component: Contact2
   }
 ]
 
