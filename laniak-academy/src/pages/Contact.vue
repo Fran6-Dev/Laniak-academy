@@ -248,75 +248,19 @@
           {{ $t('contact.faq.title') }}
         </h2>
         <div class="bg-white shadow-xl rounded-lg overflow-hidden">
-          <div class="px-6 py-8 sm:p-8">
-            <div class="space-y-8">
-              <div class="p-4 bg-gray-50 rounded-lg hover:bg-orange-50 transition duration-300">
-                <h3 class="text-lg font-medium text-black flex items-center">
-                  <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                  </svg>
-                  {{ $t('contact.faq.items.registration.question') }}
-                </h3>
-                <p class="mt-2 text-gray-700">
-                  {{ $t('contact.faq.items.registration.answer') }}
-                </p>
-              </div>
-
-              <div class="p-4 bg-gray-50 rounded-lg hover:bg-orange-50 transition duration-300">
-                <h3 class="text-lg font-medium text-black flex items-center">
-                  <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                  </svg>
-                  {{ $t('contact.faq.items.ages.question') }}
-                </h3>
-                <p class="mt-2 text-gray-700">
-                  {{ $t('contact.faq.items.ages.answer') }}
-                </p>
-              </div>
-
-              <div class="p-4 bg-gray-50 rounded-lg hover:bg-orange-50 transition duration-300">
-                <h3 class="text-lg font-medium text-black flex items-center">
-                  <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                  </svg>
-                  {{ $t('contact.faq.items.pricing.question') }}
-                </h3>
-                <p class="mt-2 text-gray-700">
-                  {{ $t('contact.faq.items.pricing.answer') }}
-                </p>
-              </div>
-
-              <div class="p-4 bg-gray-50 rounded-lg hover:bg-orange-50 transition duration-300">
-                <h3 class="text-lg font-medium text-black flex items-center">
-                  <svg class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                  </svg>
-                  {{ $t('contact.faq.items.camps.question') }}
-                </h3>
-                <p class="mt-2 text-gray-700">
-                  {{ $t('contact.faq.items.camps.answer') }}
-                </p>
-              </div>
-            </div>
-          </div>
+          <!-- FAQ content will be added here -->
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-// Logique de la page Contact
+<script>
+export default {
+  name: 'Contact'
+}
 </script>
 
 <style scoped>
-/* Animations pour les éléments interactifs */
-input, select, textarea {
-  transition: all 0.3s ease;
-}
-
-input:focus, select:focus, textarea:focus {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-</style>
+/* Les styles sont gérés par Tailwind CSS */
+</style> 
