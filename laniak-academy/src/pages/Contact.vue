@@ -62,23 +62,23 @@
 
         <!-- Contact Form -->
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-2xl font-bold mb-6">Envoyez-nous votre message</h2>
+          <h2 class="text-2xl font-bold mb-6">{{ $t('contact.form.title') }}</h2>
           <form class="space-y-6">
             <!-- Name -->
             <div>
-              <label for="name" class="block text-sm font-medium text-gray-700">Votre nom</label>
+              <label for="name" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.name.label') }}</label>
               <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Email -->
             <div>
-              <label for="email" class="block text-sm font-medium text-gray-700">Votre email</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.email.label') }}</label>
               <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Phone -->
             <div>
-              <label for="phone" class="block text-sm font-medium text-gray-700">Votre téléphone</label>
+              <label for="phone" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.phone.label') }}</label>
               <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
