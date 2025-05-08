@@ -124,30 +124,30 @@
 
       <!-- FAQ Section -->
       <div class="mt-16">
-        <h2 class="text-3xl font-bold text-center mb-12">{{ $t('faq.title') }}</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">Questions fréquentes</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- FAQ Item 1 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">{{ $t('faq.items.registration.question') }}</h3>
-            <p class="text-gray-600">{{ $t('faq.items.registration.answer') }}</p>
+            <h3 class="text-xl font-semibold mb-3">Comment s'inscrire à Laniak Academy ?</h3>
+            <p class="text-gray-600">Pour vous inscrire, vous pouvez utiliser notre formulaire de contact, nous appeler ou nous rendre visite. Nous organiserons une séance d'essai pour évaluer votre niveau et vous proposer le programme le plus adapté.</p>
           </div>
 
           <!-- FAQ Item 2 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">{{ $t('faq.items.ages.question') }}</h3>
-            <p class="text-gray-600">{{ $t('faq.items.ages.answer') }}</p>
+            <h3 class="text-xl font-semibold mb-3">Quels sont les âges acceptés ?</h3>
+            <p class="text-gray-600">Nous accueillons les joueurs de 6 à 18 ans, ainsi que les adultes amateurs et professionnels. Chaque programme est adapté à l'âge et au niveau des participants.</p>
           </div>
 
           <!-- FAQ Item 3 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">{{ $t('faq.items.pricing.question') }}</h3>
-            <p class="text-gray-600">{{ $t('faq.items.pricing.answer') }}</p>
+            <h3 class="text-xl font-semibold mb-3">Comment sont calculés les tarifs ?</h3>
+            <p class="text-gray-600">Nos tarifs sont personnalisés en fonction du programme choisi, de la fréquence des entraînements et des besoins spécifiques. Contactez-nous pour obtenir un devis détaillé.</p>
           </div>
 
           <!-- FAQ Item 4 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">{{ $t('faq.items.camps.question') }}</h3>
-            <p class="text-gray-600">{{ $t('faq.items.camps.answer') }}</p>
+            <h3 class="text-xl font-semibold mb-3">Quand ont lieu les stages ?</h3>
+            <p class="text-gray-600">Nous organisons des stages pendant toutes les vacances scolaires. Ces stages sont l'occasion idéale de découvrir notre académie et de progresser rapidement dans un environnement stimulant.</p>
           </div>
         </div>
       </div>
