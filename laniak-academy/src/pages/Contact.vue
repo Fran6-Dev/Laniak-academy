@@ -239,7 +239,7 @@
         </div>
       </div>
 
-      <!-- FAQ Section -->
+      <!-- FAQ Section --> 
       <div class="mt-20">
         <h2 class="text-3xl font-extrabold text-black text-center mb-12 flex items-center justify-center">
           <svg class="h-8 w-8 text-orange-500 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
