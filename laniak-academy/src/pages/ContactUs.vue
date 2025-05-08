@@ -257,7 +257,7 @@
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'ContactUs'
 }
 </script>
 
