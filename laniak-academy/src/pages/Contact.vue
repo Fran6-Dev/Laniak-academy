@@ -37,9 +37,9 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">{{ $t('contact.info.email.title') }}</h3>
-                <p class="mt-1">{{ $t('contact.info.email.value') }}</p>
-                <p class="text-sm text-gray-500 mt-1">{{ $t('contact.info.email.response') }}</p>
+                <h3 class="text-lg font-medium">Email</h3>
+                <p class="mt-1">laniakbasketballacademy@gmail.com</p>
+                <p class="text-sm text-gray-500 mt-1">Réponse sous 24-48h</p>
               </div>
             </div>
 
@@ -52,9 +52,9 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">Adresse</h3>
-                <p class="mt-1">123 Avenue du Sport, 75001 Paris, France</p>
-                <p class="text-sm text-gray-500 mt-1">Métro: Ligne 1, Station Sport</p>
+                <h3 class="text-lg font-medium">{{ $t('contact.info.address.title') }}</h3>
+                <p class="mt-1">{{ $t('contact.info.address.value') }}</p>
+                <p class="text-sm text-gray-500 mt-1">{{ $t('contact.info.address.metro') }}</p>
               </div>
             </div>
           </div>
