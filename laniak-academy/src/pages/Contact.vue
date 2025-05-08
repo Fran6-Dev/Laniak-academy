@@ -72,12 +72,9 @@
               </div>
               <div class="ml-4">
                 <h3 class="text-lg font-medium">
-                  {{ $t("contact.email.title") }}
+                  Email
                 </h3>
-                <p class="mt-1">{{ $t("contact.email.value") }}</p>
-                <p class="text-sm text-gray-500 mt-1">
-                  {{ $t("contact.email.response") }}
-                </p>
+                <p class="mt-1">laniakbasketballacademy@gmail.com</p>
               </div>
             </div>
 
