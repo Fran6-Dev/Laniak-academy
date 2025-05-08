@@ -3,8 +3,8 @@
     <!-- Header Section -->
     <div class="bg-orange-600 text-white py-16">
       <div class="container mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-4">Contactez-nous</h1>
-        <p class="text-xl">Une question ? Un projet ? N'hésitez pas à nous contacter</p>
+        <h1 class="text-4xl font-bold mb-4">{{ $t('contact.title') }}</h1>
+        <p class="text-xl">{{ $t('contact.subtitle') }}</p>
       </div>
     </div>
 
@@ -163,4 +163,4 @@ defineOptions({
 
 <style scoped>
 /* Les styles sont gérés par Tailwind CSS */
-</style> 
+</style>
