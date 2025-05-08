@@ -24,8 +24,8 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">Téléphone</h3>
-                <p class="mt-1">+33 6 58 97 78 95</p>
+                <h3 class="text-lg font-medium">{{ $t('contact.info.phone.title') }}</h3>
+                <p class="mt-1">{{ $t('contact.info.phone.value') }}</p>
               </div>
             </div>
 
