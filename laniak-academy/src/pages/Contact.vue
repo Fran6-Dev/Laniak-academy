@@ -24,8 +24,8 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">{{ $t('contact.info.phone.title') }}</h3>
-                <p class="mt-1">{{ $t('contact.info.phone.value') }}</p>
+                <h3 class="text-lg font-medium">Téléphone</h3>
+                <p class="mt-1">+33 6 58 97 78 95</p>
               </div>
             </div>
 
@@ -37,9 +37,9 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">{{ $t('contact.info.email.title') }}</h3>
-                <p class="mt-1">{{ $t('contact.info.email.value') }}</p>
-                <p class="text-sm text-gray-500 mt-1">{{ $t('contact.info.email.response') }}</p>
+                <h3 class="text-lg font-medium">Email</h3>
+                <p class="mt-1">laniakbasketballacademy@gmail.com</p>
+                <p class="text-sm text-gray-500 mt-1">Réponse sous 24-48h</p>
               </div>
             </div>
 
@@ -52,9 +52,9 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">{{ $t('contact.info.address.title') }}</h3>
-                <p class="mt-1">{{ $t('contact.info.address.value') }}</p>
-                <p class="text-sm text-gray-500 mt-1">{{ $t('contact.info.address.metro') }}</p>
+                <h3 class="text-lg font-medium">Adresse</h3>
+                <p class="mt-1">123 Avenue du Sport, 75001 Paris, France</p>
+                <p class="text-sm text-gray-500 mt-1">Métro: Ligne 1, Station Sport</p>
               </div>
             </div>
           </div>
@@ -62,42 +62,42 @@
 
         <!-- Contact Form -->
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-2xl font-bold mb-6">{{ $t('contact.form.title') }}</h2>
+          <h2 class="text-2xl font-bold mb-6">Envoyez-nous votre message</h2>
           <form class="space-y-6">
             <!-- Name -->
             <div>
-              <label for="name" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.name.title') }}</label>
+              <label for="name" class="block text-sm font-medium text-gray-700">Votre nom</label>
               <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Email -->
             <div>
-              <label for="email" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.email.title') }}</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Votre email</label>
               <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Phone -->
             <div>
-              <label for="phone" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.phone.title') }}</label>
+              <label for="phone" class="block text-sm font-medium text-gray-700">Votre téléphone</label>
               <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Subject -->
             <div>
-              <label for="subject" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.subject.title') }}</label>
+              <label for="subject" class="block text-sm font-medium text-gray-700">Sujet de votre message</label>
               <select id="subject" name="subject" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
-                <option value="">{{ $t('contact.form.subject.placeholder') }}</option>
-                <option value="registration">{{ $t('contact.form.subject.registration') }}</option>
-                <option value="information">{{ $t('contact.form.subject.information') }}</option>
-                <option value="visit">{{ $t('contact.form.subject.visit') }}</option>
-                <option value="partnership">{{ $t('contact.form.subject.partnership') }}</option>
-                <option value="other">{{ $t('contact.form.subject.other') }}</option>
+                <option value="">Choisissez un sujet</option>
+                <option value="registration">Inscription</option>
+                <option value="information">Demande d'information</option>
+                <option value="visit">Visite des installations</option>
+                <option value="partnership">Partenariat</option>
+                <option value="other">Autre</option>
               </select>
             </div>
 
             <!-- Message -->
             <div>
-              <label for="message" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.message.title') }}</label>
+              <label for="message" class="block text-sm font-medium text-gray-700">Votre message</label>
               <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="Écrivez votre message ici..."></textarea>
             </div>
 
@@ -107,15 +107,15 @@
                 <input id="privacy" name="privacy" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
               </div>
               <div class="ml-3 text-sm">
-                <label for="privacy" class="font-medium text-gray-700">{{ $t('contact.form.privacy.title') }}</label>
-                <p class="text-gray-500">{{ $t('contact.form.privacy.description') }}</p>
+                <label for="privacy" class="font-medium text-gray-700">J'accepte la politique de confidentialité</label>
+                <p class="text-gray-500">Vos données personnelles seront traitées conformément à notre politique de confidentialité.</p>
               </div>
             </div>
 
             <!-- Submit Button -->
             <div>
               <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
-                {{ $t('contact.form.submit') }}
+                Envoyer le message
               </button>
             </div>
           </form>
