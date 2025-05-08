@@ -37,9 +37,9 @@
                 </svg>
               </div>
               <div class="ml-4">
-                <h3 class="text-lg font-medium">Email</h3>
-                <p class="mt-1">laniakbasketballacademy@gmail.com</p>
-                <p class="text-sm text-gray-500 mt-1">Réponse sous 24-48h</p>
+                <h3 class="text-lg font-medium">{{ $t('contact.email.title') }}</h3>
+                <p class="mt-1">{{ $t('contact.email.value') }}</p>
+                <p class="text-sm text-gray-500 mt-1">{{ $t('contact.email.response') }}</p>
               </div>
             </div>
 
@@ -66,39 +66,39 @@
           <form class="space-y-6">
             <!-- Name -->
             <div>
-              <label for="name" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.name.label') }}</label>
+              <label for="name" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.name') }}</label>
               <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Email -->
             <div>
-              <label for="email" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.email.label') }}</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.email') }}</label>
               <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Phone -->
             <div>
-              <label for="phone" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.phone.label') }}</label>
+              <label for="phone" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.phone') }}</label>
               <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
             </div>
 
             <!-- Subject -->
             <div>
-              <label for="subject" class="block text-sm font-medium text-gray-700">Sujet de votre message</label>
+              <label for="subject" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.subject') }}</label>
               <select id="subject" name="subject" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500">
-                <option value="">Choisissez un sujet</option>
-                <option value="registration">Inscription</option>
-                <option value="information">Demande d'information</option>
-                <option value="visit">Visite des installations</option>
-                <option value="partnership">Partenariat</option>
-                <option value="other">Autre</option>
+                <option value="">{{ $t('contact.form.subjectPlaceholder') }}</option>
+                <option value="registration">{{ $t('contact.form.subjectOptions.registration') }}</option>
+                <option value="information">{{ $t('contact.form.subjectOptions.information') }}</option>
+                <option value="visit">{{ $t('contact.form.subjectOptions.visit') }}</option>
+                <option value="partnership">{{ $t('contact.form.subjectOptions.partnership') }}</option>
+                <option value="other">{{ $t('contact.form.subjectOptions.other') }}</option>
               </select>
             </div>
 
             <!-- Message -->
             <div>
-              <label for="message" class="block text-sm font-medium text-gray-700">Votre message</label>
-              <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="Écrivez votre message ici..."></textarea>
+              <label for="message" class="block text-sm font-medium text-gray-700">{{ $t('contact.form.message') }}</label>
+              <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="{{ $t('contact.form.messagePlaceholder') }}"></textarea>
             </div>
 
             <!-- Privacy Policy -->
@@ -107,15 +107,15 @@
                 <input id="privacy" name="privacy" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
               </div>
               <div class="ml-3 text-sm">
-                <label for="privacy" class="font-medium text-gray-700">J'accepte la politique de confidentialité</label>
-                <p class="text-gray-500">Vos données personnelles seront traitées conformément à notre politique de confidentialité.</p>
+                <label for="privacy" class="font-medium text-gray-700">{{ $t('contact.form.privacy.accept') }}</label>
+                <p class="text-gray-500">{{ $t('contact.form.privacy.description') }}</p>
               </div>
             </div>
 
             <!-- Submit Button -->
             <div>
               <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
-                Envoyer le message
+                {{ $t('contact.form.send') }}
               </button>
             </div>
           </form>
@@ -124,30 +124,30 @@
 
       <!-- FAQ Section -->
       <div class="mt-16">
-        <h2 class="text-3xl font-bold text-center mb-12">Questions fréquentes</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">{{ $t('contact.faq.title') }}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- FAQ Item 1 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">Comment s'inscrire à Laniak Academy ?</h3>
-            <p class="text-gray-600">Pour vous inscrire, vous pouvez utiliser notre formulaire de contact, nous appeler ou nous rendre visite. Nous organiserons une séance d'essai pour évaluer votre niveau et vous proposer le programme le plus adapté.</p>
+            <h3 class="text-xl font-semibold mb-3">{{ $t('contact.faq.items.registration.question') }}</h3>
+            <p class="text-gray-600">{{ $t('contact.faq.items.registration.answer') }}</p>
           </div>
 
           <!-- FAQ Item 2 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">Quels sont les âges acceptés ?</h3>
-            <p class="text-gray-600">Nous accueillons les joueurs de 6 à 18 ans, ainsi que les adultes amateurs et professionnels. Chaque programme est adapté à l'âge et au niveau des participants.</p>
+            <h3 class="text-xl font-semibold mb-3">{{ $t('contact.faq.items.ages.question') }}</h3>
+            <p class="text-gray-600">{{ $t('contact.faq.items.ages.answer') }}</p>
           </div>
 
           <!-- FAQ Item 3 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">Comment sont calculés les tarifs ?</h3>
-            <p class="text-gray-600">Nos tarifs sont personnalisés en fonction du programme choisi, de la fréquence des entraînements et des besoins spécifiques. Contactez-nous pour obtenir un devis détaillé.</p>
+            <h3 class="text-xl font-semibold mb-3">{{ $t('contact.faq.items.pricing.question') }}</h3>
+            <p class="text-gray-600">{{ $t('contact.faq.items.pricing.answer') }}</p>
           </div>
 
           <!-- FAQ Item 4 -->
           <div class="bg-white rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold mb-3">Quand ont lieu les stages ?</h3>
-            <p class="text-gray-600">Nous organisons des stages pendant toutes les vacances scolaires. Ces stages sont l'occasion idéale de découvrir notre académie et de progresser rapidement dans un environnement stimulant.</p>
+            <h3 class="text-xl font-semibold mb-3">{{ $t('contact.faq.items.camps.question') }}</h3>
+            <p class="text-gray-600">{{ $t('contact.faq.items.camps.answer') }}</p>
           </div>
         </div>
       </div>
