@@ -72,11 +72,11 @@
               </div>
               <div class="ml-4">
                 <h3 class="text-lg font-medium">
-                  {{ $t("contact.info.email.title") }}
+                  {{ $t("contact.email.title") }}
                 </h3>
-                <p class="mt-1">{{ $t("contact.info.email.value") }}</p>
+                <p class="mt-1">{{ $t("contact.email.value") }}</p>
                 <p class="text-sm text-gray-500 mt-1">
-                  {{ $t("contact.info.email.response") }}
+                  {{ $t("contact.email.response") }}
                 </p>
               </div>
             </div>
