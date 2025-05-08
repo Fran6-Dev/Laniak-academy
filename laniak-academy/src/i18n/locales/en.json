@@ -6,7 +6,8 @@
     "team": "Team",
     "references": "References",
     "contact": "Contact",
-    "equipement": "Equipment"
+    "equipement": "Equipment",
+    "contactUs": "Contact Us"
   },
   "home": {
     "hero": {
@@ -329,6 +330,72 @@
       "title": "Interested in our products?",
       "subtitle": "Contact us for more information",
       "button": "Contact Us"
+    }
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "subtitle": "Have a question? A project? Don't hesitate to reach out",
+    "info": {
+      "title": "Our Contact Information",
+      "phone": {
+        "title": "Phone",
+        "value": "+33 6 58 97 78 95"
+      },
+      "email": {
+        "title": "Email",
+        "value": "laniakbasketballacademy@gmail.com",
+        "response": "We'll get back to you as soon as possible"
+      },
+      "address": {
+        "title": "Address",
+        "value": "123 Sport Avenue, 75001 Paris, France",
+        "metro": "Metro: Line 1, Sport Station"
+      }
+    },
+    "form": {
+      "title": "Send us your message",
+      "name": "Your name",
+      "email": "Your email",
+      "phone": "Your phone",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "Message subject",
+      "subjectPlaceholder": "Choose a subject",
+      "subjectOptions": {
+        "select": "Choose a subject",
+        "registration": "Registration",
+        "information": "Information request",
+        "visit": "Facility visit",
+        "partnership": "Partnership",
+        "other": "Other"
+      },
+      "message": "Your message",
+      "messagePlaceholder": "Write your message here...",
+      "privacy": {
+        "accept": "I accept the privacy policy",
+        "description": "Your personal data will be processed in accordance with our privacy policy."
+      },
+      "send": "Send message"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": {
+        "registration": {
+          "question": "How can I register at Laniak Academy?",
+          "answer": "To register, you can use our contact form, call us, or visit us. We will organize a trial session to assess your level and offer you the most suitable program."
+        },
+        "ages": {
+          "question": "What ages are accepted?",
+          "answer": "We welcome players from 6 to 18 years old, as well as amateur and professional adults. Each program is adapted to the age and level of participants."
+        },
+        "pricing": {
+          "question": "How are fees calculated?",
+          "answer": "Our fees are personalized based on the chosen program, training frequency, and specific needs. Contact us to get a detailed quote."
+        },
+        "camps": {
+          "question": "When do the camps take place?",
+          "answer": "We organize camps during all school holidays. These camps are the perfect opportunity to discover our academy and progress quickly in a stimulating environment."
+        }
+      }
     }
   }
 } 

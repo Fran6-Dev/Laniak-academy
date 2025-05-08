@@ -6,7 +6,8 @@
     "team": "Équipe",
     "references": "Références",
     "contact": "Contact",
-    "equipement": "Équipement"
+    "equipement": "Équipement",
+    "contactUs": "Contactez-nous"
   },
   "home": {
     "hero": {
@@ -325,6 +326,72 @@
       "title": "Intéressé par nos produits ?",
       "subtitle": "Contactez-nous pour plus d'informations",
       "button": "Nous contacter"
+    }
+  },
+  "contactUs": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Un projet ? N'hésitez pas à nous contacter",
+    "info": {
+      "title": "Nos coordonnées",
+      "phone": {
+        "title": "Téléphone",
+        "value": "+33 6 58 97 78 95"
+      },
+      "email": {
+        "title": "Email",
+        "value": "laniakbasketballacademy@gmail.com",
+        "response": "Nous vous répondrons dans les plus brefs délais"
+      },
+      "address": {
+        "title": "Adresse",
+        "value": "123 Avenue du Sport, 75001 Paris, France",
+        "metro": "Métro: Ligne 1, Station Sport"
+      }
+    },
+    "form": {
+      "title": "Envoyez-nous votre message",
+      "name": "Votre nom",
+      "email": "Votre email",
+      "phone": "Votre téléphone",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "Sujet de votre message",
+      "subjectPlaceholder": "Choisissez un sujet",
+      "subjectOptions": {
+        "select": "Choisissez un sujet",
+        "registration": "Inscription",
+        "information": "Demande d'information",
+        "visit": "Visite des installations",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      },
+      "message": "Votre message",
+      "messagePlaceholder": "Écrivez votre message ici...",
+      "privacy": {
+        "accept": "J'accepte la politique de confidentialité",
+        "description": "Vos données personnelles seront traitées conformément à notre politique de confidentialité."
+      },
+      "send": "Envoyer le message"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": {
+        "registration": {
+          "question": "Comment s'inscrire à Laniak Academy ?",
+          "answer": "Pour vous inscrire, vous pouvez utiliser notre formulaire de contact, nous appeler ou nous rendre visite. Nous organiserons une séance d'essai pour évaluer votre niveau et vous proposer le programme le plus adapté."
+        },
+        "ages": {
+          "question": "Quels sont les âges acceptés ?",
+          "answer": "Nous accueillons les joueurs de 6 à 18 ans, ainsi que les adultes amateurs et professionnels. Chaque programme est adapté à l'âge et au niveau des participants."
+        },
+        "pricing": {
+          "question": "Comment sont calculés les tarifs ?",
+          "answer": "Nos tarifs sont personnalisés en fonction du programme choisi, de la fréquence des entraînements et des besoins spécifiques. Contactez-nous pour obtenir un devis détaillé."
+        },
+        "camps": {
+          "question": "Quand ont lieu les stages ?",
+          "answer": "Nous organisons des stages pendant toutes les vacances scolaires. Ces stages sont l'occasion idéale de découvrir notre académie et de progresser rapidement dans un environnement stimulant."
+        }
+      }
     }
   }
 } 
