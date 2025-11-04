@@ -100,13 +100,13 @@
   },
   "programs": {
     "title": "Nos Programmes d'Entraînement",
-    "subtitle": "Des programmes adaptés à tous les niveaux, de l'initiation au haut niveau",
+    "subtitle": "Des programmes adaptés à tous les niveaux, de l'initiation au haut niveau.",
     "stages": {
       "title": "Stages",
-      "description": "Pour les débutants comme pour les plus professionnels",
-      "age": "Dès 9 ans",
-      "schedule": "Tout au long de l'année",
-      "youth": "Pour les jeunes : option anglaise (vacances scolaires comprises : Entrainement physique & autres sport, tournois, etc.)"
+      "description": "Pour les débutants comme pour les plus professionnels.",
+      "age": "Dès 9 ans.",
+      "schedule": "Tout au long de l'année.",
+      "youth": "Pour les jeunes : option anglaise (vacances scolaires comprises : Entrainement physique & autres sport, tournois, etc.)."
     },
     "perfectionnement": {
       "title": "Perfectionnement",
@@ -120,8 +120,8 @@
     },
     "threeOnThree": {
       "title": "3x3",
-      "description": "Développer des equipes de 3x3 à partir de U15",
-      "tournament": "Entraînement et participation au tournoi officiel"
+      "description": "Développer des equipes de 3x3 à partir de U15.",
+      "tournament": "Entraînement et participation au tournoi officiel."
     },
     "strength": {
       "title": "Renforcement",
@@ -130,7 +130,7 @@
     },
     "recovery": {
       "title": "Récupération",
-      "description": "Séances dédiées à la récupération musculaire. Différents outils pourront être utilisés tel que les étirements, les bains à remous, …"
+      "description": "Séances dédiées à la récupération musculaire. Différents outils pourront être utilisés tel que les étirements, les bains à remous..."
     },
     "individual": {
       "title": "Tournoi des académies",
