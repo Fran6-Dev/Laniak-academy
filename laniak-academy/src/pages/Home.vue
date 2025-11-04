@@ -10,7 +10,7 @@
         /> -->
         <video
           class="w-full h-screen object-cover"
-          src="../assets/laniak_video.mp4"
+          src="https://pub-9007503184934941a3d7cb636e844506.r2.dev/NEW_BANNER_LNK_WS.mp4"
           autoplay
           loop
           muted
