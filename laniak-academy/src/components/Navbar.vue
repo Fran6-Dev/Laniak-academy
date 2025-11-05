@@ -71,7 +71,7 @@
             <button
               @click="isOpen = !isOpen"
               type="button"
-              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500"
+              class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -129,49 +129,49 @@
         <div class="pt-2 pb-3 space-y-1">
           <RouterLink
             to="/"
-            class="bg-orange-50 border-orange-500 text-orange block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.home') }}
           </RouterLink>
           <RouterLink
             to="/about"
-            class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.about') }}
           </RouterLink>
           <RouterLink
             to="/program"
-            class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.programs') }}
           </RouterLink>
           <RouterLink
             to="/references"
-            class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.references') }}
           </RouterLink>
           <RouterLink
             to="/equipement"
-            class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.equipement') }}
           </RouterLink>
           <RouterLink
             to="/team"
-            class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.team') }}
           </RouterLink>
           <RouterLink
             to="/contact"
-            class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-transparent  text-gray-500 hover:bg-gray-50 hover:border-orange-500 hover:text-orange-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-500 text-orange"
           >
             {{ $t('nav.contact') }}
