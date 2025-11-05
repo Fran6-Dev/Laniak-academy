@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Header Section avec image de fond -->
       <div class="relative bg-orange rounded-xl overflow-hidden mb-16">
-        <div class="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-400 opacity-90"></div>
+        <div class="absolute inset-0 bg-gradient-to-r bg-orange opacity-90"></div>
         <div class="relative py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
           <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
             {{ $t('about.title') }}

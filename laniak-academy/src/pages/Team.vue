@@ -23,7 +23,7 @@
                   <img src="../assets/mniakate.jpg" :alt="$t('team.members.modibo.name')" class="w-full h-full object-cover rounded-full">
                 </div>
                 <h3 class="text-lg font-medium text-black">{{ $t('team.members.modibo.name') }}</h3>
-                <p class="text-orange-500">{{ $t('team.members.modibo.role') }}</p>
+                <p class="text-orange">{{ $t('team.members.modibo.role') }}</p>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@
                   <img src="../assets/louvenor.jpg" :alt="$t('team.members.jeanPierre.name')" class="w-full h-full object-cover rounded-full">
                 </div>
                 <h3 class="text-lg font-medium text-black">{{ $t('team.members.jeanPierre.name') }}</h3>
-                <p class="text-orange-500">{{ $t('team.members.jeanPierre.role') }}</p>
+                <p class="text-orange">{{ $t('team.members.jeanPierre.role') }}</p>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@
                   <img src="../assets/abdel.jpg" :alt="$t('team.members.abdel.name')" class="w-full h-full object-cover rounded-full">
                 </div>
                 <h3 class="text-lg font-medium text-black">{{ $t('team.members.abdel.name') }}</h3>
-                <p class="text-orange-500">{{ $t('team.members.abdel.role') }}</p>
+                <p class="text-orange">{{ $t('team.members.abdel.role') }}</p>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@
                   <img src="../assets/anderson.jpg" :alt="$t('team.members.anderson.name')" class="w-full h-full object-cover rounded-full">
                 </div>
                 <h3 class="text-lg font-medium text-black">{{ $t('team.members.anderson.name') }}</h3>
-                <p class="text-orange-500">{{ $t('team.members.anderson.role') }}</p>
+                <p class="text-orange">{{ $t('team.members.anderson.role') }}</p>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@
                   <img src="../assets/rniakate.jpg" :alt="$t('team.members.rokiatou.name')" class="w-full h-full object-cover rounded-full">
                 </div>
                 <h3 class="text-lg font-medium text-black">{{ $t('team.members.rokiatou.name') }}</h3>
-                <p class="text-orange-500">{{ $t('team.members.rokiatou.role') }}</p>
+                <p class="text-orange">{{ $t('team.members.rokiatou.role') }}</p>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@
       </div>
 
       <!-- Join Us Section -->
-      <div class="bg-orange-500 rounded-lg shadow-xl overflow-hidden">
+      <div class="bg-orange rounded-lg shadow-xl overflow-hidden">
         <div class="px-4 py-5 sm:p-6 text-center">
           <h2 class="text-2xl font-bold text-white">{{ $t('team.joinUs.title') }}</h2>
           <p class="mt-2 text-lg text-white">
