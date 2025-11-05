@@ -37,7 +37,7 @@
             href="https://www.instagram.com/laniakbasketballacademy/"
             target="_blank"
             rel="noopener noreferrer"
-            class="flex items-center space-x-2 text-orange-500 hover:text-orange-600 transition-colors duration-300"
+            class="flex items-center space-x-2 text-orange hover:text-orange-600 transition-colors duration-300"
           >
             <svg
               class="w-12 h-12"

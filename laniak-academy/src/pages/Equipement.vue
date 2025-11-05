@@ -23,7 +23,7 @@
     <div class="py-12 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center mb-12">
-          <h2 class="text-base text-orange-500 font-semibold tracking-wide uppercase">{{ $t('equipement.features.title') }}</h2>
+          <h2 class="text-base text-orange font-semibold tracking-wide uppercase">{{ $t('equipement.features.title') }}</h2>
           <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
             {{ $t('equipement.features.subtitle') }}
           </p>
@@ -130,7 +130,7 @@
     </div>
 
     <!-- CTA Section -->
-    <div class="bg-orange-500">
+    <div class="bg-orange">
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
           <span class="block">{{ $t('equipement.cta.title') }}</span>
@@ -140,7 +140,7 @@
           <div class="inline-flex rounded-md shadow">
             <RouterLink
               to="/contact"
-              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange-500 bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
             >
               {{ $t('equipement.cta.button') }}
             </RouterLink>

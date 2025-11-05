@@ -10,10 +10,11 @@
         /> -->
         <video
           class="w-full h-screen object-cover"
-          src="https://pub-9007503184934941a3d7cb636e844506.r2.dev/NEW_BANNER_LNK_WS.mp4"
+          src="https://pub-4a5d919c29fe42fab4d5e25610f8f922.r2.dev/SMALL_LOGO_BANNIERE_LNK_WS.mp4"
           autoplay
           loop
           muted
+          playsinline
         ></video>
       </div>
 
@@ -32,7 +33,7 @@
         <div class="mt-10">
           <RouterLink
             to="/program"
-            class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out"
+            class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-orange hover:bg-orange transition duration-300 ease-in-out"
           >
             {{ $t("home.hero.cta") }}
           </RouterLink>
@@ -43,7 +44,7 @@
 
       <RouterLink
       to="/program"
-      class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out"
+      class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-orange hover:bg-orange transition duration-300 ease-in-out"
       >
       {{ $t("home.hero.cta") }}
     </RouterLink>
@@ -54,7 +55,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2
-            class="text-base text-orange-500 font-semibold tracking-wide uppercase"
+            class="text-base text-orange font-semibold tracking-wide uppercase"
           >
             {{ $t("home.features.title") }}
           </h2>
@@ -74,7 +75,7 @@
           >
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
               >
                 <svg
                   class="h-6 w-6"
@@ -102,7 +103,7 @@
 
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
               >
                 <svg
                   class="h-6 w-6"
@@ -130,7 +131,7 @@
 
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
               >
                 <svg
                   class="h-6 w-6"
@@ -158,7 +159,7 @@
 
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
               >
                 <svg
                   class="h-6 w-6"
@@ -189,7 +190,7 @@
     </div>
 
     <!-- CTA Section -->
-    <div class="bg-orange-500">
+    <div class="bg-orange">
       <div
         class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
       >
@@ -203,7 +204,7 @@
           <div class="inline-flex rounded-md shadow">
             <RouterLink
               to="/contact"
-              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange-500 bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
             >
               {{ $t("home.cta.button") }}
             </RouterLink>

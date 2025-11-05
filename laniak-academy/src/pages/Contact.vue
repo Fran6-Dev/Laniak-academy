@@ -29,7 +29,7 @@
             <!-- Phone -->
             <div class="flex items-center mt-1">
               <svg
-                class="h-6 w-6 text-orange-600"
+                class="h-6 w-6 text-orange"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -49,7 +49,7 @@
             <!-- Email -->
             <div class="flex items-center mt-1">
               <svg
-                class="h-6 w-6 text-orange-600"
+                class="h-6 w-6 text-orange"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -69,7 +69,7 @@
             <!-- Address -->
             <div class="flex items-center mt-1">
               <svg
-                class="h-6 w-6 text-orange-600"
+                class="h-6 w-6 text-orange"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -205,7 +205,7 @@
                   id="privacy"
                   name="privacy"
                   type="checkbox"
-                  class="h-4 w-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500"
+                  class="h-4 w-4 rounded border-gray-300 text-orange focus:ring-orange-500"
                 />
               </div>
               <div class="ml-3 text-sm">
