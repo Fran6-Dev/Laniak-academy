@@ -29,9 +29,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('/src/assets/fonts/Roboto_Condensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Exemple d'utilisation */
 h1, h2, h3, h4 {
   font-family: 'Bebas Neue', sans-serif;
 }
 
 
+body {
+  font-family: 'Roboto';
+}
