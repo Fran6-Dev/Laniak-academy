@@ -23,10 +23,10 @@
     <div class="py-12 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center mb-12">
-          <h2 class="text-base text-orange font-semibold tracking-wide uppercase">{{ $t('equipement.features.title') }}</h2>
-          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
+          <h2 class="text-xl text-orange font-semibold tracking-wide uppercase">{{ $t('equipement.features.title') }}</h2>
+          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
             {{ $t('equipement.features.subtitle') }}
-          </p>
+          </h3>
           <p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
             {{ $t('equipement.features.description') }}
           </p>

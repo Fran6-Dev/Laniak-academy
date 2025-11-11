@@ -55,15 +55,15 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2
-            class="text-base text-orange font-semibold tracking-wide uppercase"
+            class="text-orange font-semibold tracking-wide uppercase text-2xl"
           >
             {{ $t("home.features.title") }}
           </h2>
-          <p
+          <h3
             class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl"
           >
             {{ $t("home.features.subtitle") }}
-          </p>
+          </h3>
           <p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
             {{ $t("home.features.description") }}
           </p>

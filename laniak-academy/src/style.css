@@ -4,6 +4,9 @@
 
 /* Vos styles personnalisés peuvent être ajoutés ici */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+
+
 .text-orange {
   color: #f55237;
 }
@@ -11,4 +14,24 @@
 .bg-orange {
   background-color: #f55237;
 }
+
+/* @font-face {
+  font-family: 'Bebas Neue';
+  src: url('/src/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/src/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Exemple d'utilisation */
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 
