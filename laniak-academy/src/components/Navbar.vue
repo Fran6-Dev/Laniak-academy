@@ -54,13 +54,13 @@
             >
               {{ $t('nav.team') }}
             </RouterLink>
-            <RouterLink
+            <!-- <RouterLink
               to="/contact"
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
               {{ $t('nav.contact') }}
-            </RouterLink>
+            </RouterLink> -->
           </div>
         </div>
         
@@ -169,13 +169,13 @@
           >
             {{ $t('nav.team') }}
           </RouterLink>
-          <RouterLink
+          <!-- <RouterLink
             to="/contact"
             class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
             {{ $t('nav.contact') }}
-          </RouterLink>
+          </RouterLink> -->
           <!-- Language Selector in Mobile Menu -->
           <div class="px-6 py-2">
             <LanguageSelector />
