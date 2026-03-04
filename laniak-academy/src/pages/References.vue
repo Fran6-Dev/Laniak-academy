@@ -136,7 +136,7 @@
             {{ $t('references.cta.description') }}
           </p>
           <div class="mt-6">
-            <a href="/contact" class="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-lg text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out">
+            <a href="https://www.instagram.com/laniakbasketballacademy/" class="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-lg text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out">
               {{ $t('references.cta.button') }}
             </a>
           </div>

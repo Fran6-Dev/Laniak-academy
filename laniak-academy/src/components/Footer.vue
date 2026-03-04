@@ -14,7 +14,7 @@
             >
               <img
                 class="w-16 h-16"
-                src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/8e/Logo_Cergy_%282022%29.svg/1777px-Logo_Cergy_%282022%29.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/fr/8/8e/Logo_Cergy_%282022%29.svg"
                 alt=""
               />
             </div>

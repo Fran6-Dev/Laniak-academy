@@ -138,12 +138,12 @@
         </h2>
         <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div class="inline-flex rounded-md shadow">
-            <RouterLink
-              to="/contact"
+            <a
+              href="https://www.instagram.com/laniakbasketballacademy/"
               class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
             >
               {{ $t('equipement.cta.button') }}
-            </RouterLink>
+            </a>
           </div>
         </div>
       </div>

@@ -93,9 +93,9 @@
             {{ $t('team.joinUs.description') }}
           </p>
           <div class="mt-5">
-            <RouterLink to="/contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-orange-600 bg-white hover:bg-gray-50 transition duration-300 ease-in-out">
+            <a href="https://www.instagram.com/laniakbasketballacademy/" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-orange-600 bg-white hover:bg-gray-50 transition duration-300 ease-in-out">
               {{ $t('team.joinUs.cta') }}
-            </RouterLink>
+            </a>
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@
 
       <RouterLink
       to="/program"
-      class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-orange hover:bg-orange transition duration-300 ease-in-out"
+      class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange hover:bg-orange transition duration-300 ease-in-out"
       >
       {{ $t("home.hero.cta") }}
     </RouterLink>
@@ -202,12 +202,12 @@
         </h2>
         <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div class="inline-flex rounded-md shadow">
-            <RouterLink
-              to="/contact"
+            <a
+              href="https://www.instagram.com/laniakbasketballacademy/"
               class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
             >
               {{ $t("home.cta.button") }}
-            </RouterLink>
+            </a>
           </div>
         </div>
       </div>
