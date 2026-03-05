@@ -7,7 +7,8 @@
     "references": "Références",
     "contact": "Contact",
     "equipement": "Équipement",
-    "contactUs": "Contactez-nous"
+    "contactUs": "Contactez-nous",
+    "cart": "Mon panier"
   },
   "home": {
     "hero": {
@@ -286,6 +287,7 @@
     }
   },
   "equipement": {
+    "addToCart": "Ajouter au panier",
     "hero": {
       "title": "Collection Laniak",
       "description": "Découvrez notre gamme exclusive de produits de basketball"

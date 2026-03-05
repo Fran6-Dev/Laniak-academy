@@ -6,10 +6,14 @@
           <!-- Logo -->
           <div class="flex-shrink-0 flex items-center">
             <RouterLink to="/" class="text-2xl font-bold text-black">
-              <img src="../assets/logo.png" alt="Laniak Academy" class="h-32 mt-10">
+              <img
+                src="../assets/logo.png"
+                alt="Laniak Academy"
+                class="h-32 mt-10"
+              />
             </RouterLink>
           </div>
-          
+
           <!-- Navigation Links -->
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <RouterLink
@@ -17,42 +21,42 @@
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
-              {{ $t('nav.home') }}
+              {{ $t("nav.home") }}
             </RouterLink>
             <RouterLink
               to="/about"
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
-              {{ $t('nav.about') }}
+              {{ $t("nav.about") }}
             </RouterLink>
             <RouterLink
               to="/program"
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
-              {{ $t('nav.programs') }}
+              {{ $t("nav.programs") }}
             </RouterLink>
             <RouterLink
               to="/references"
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
-              {{ $t('nav.references') }}
+              {{ $t("nav.references") }}
             </RouterLink>
             <RouterLink
               to="/equipement"
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
-              {{ $t('nav.equipement') }}
+              {{ $t("nav.equipement") }}
             </RouterLink>
             <RouterLink
               to="/team"
               class="border-transparent text-gray-500 hover:border-orange-500 hover:text-orange inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               active-class="border-orange-500 text-orange"
             >
-              {{ $t('nav.team') }}
+              {{ $t("nav.team") }}
             </RouterLink>
             <!-- <RouterLink
               to="/contact"
@@ -61,9 +65,15 @@
             >
               {{ $t('nav.contact') }}
             </RouterLink> -->
+            <button class="snipcart-checkout text-gray-500">
+              {{ $t("nav.cart") }} (<span
+                class="snipcart-items-count text-gray-500 px-1 pt-1 text-sm font-medium"
+              ></span
+              >)
+            </button>
           </div>
         </div>
-        
+
         <!-- Language Selector and Mobile menu button -->
         <div class="flex items-center">
           <LanguageSelector class="hidden sm:block mr-4" />
@@ -121,54 +131,56 @@
       leave-from-class="transform scale-100 opacity-100"
       leave-to-class="transform scale-95 opacity-0"
     >
-      <div
-        v-show="isOpen"
-        class="sm:hidden"
-        id="mobile-menu"
-      >
+      <div v-show="isOpen" class="sm:hidden" id="mobile-menu">
         <div class="pt-2 pb-3 space-y-1">
           <RouterLink
             to="/"
-            class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
-            {{ $t('nav.home') }}
+            {{ $t("nav.home") }}
           </RouterLink>
           <RouterLink
             to="/about"
-            class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
-            {{ $t('nav.about') }}
+            {{ $t("nav.about") }}
           </RouterLink>
           <RouterLink
             to="/program"
-            class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
-            {{ $t('nav.programs') }}
+            {{ $t("nav.programs") }}
           </RouterLink>
           <RouterLink
             to="/references"
-            class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
-            {{ $t('nav.references') }}
+            {{ $t("nav.references") }}
           </RouterLink>
           <RouterLink
             to="/equipement"
-            class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
-            {{ $t('nav.equipement') }}
+            {{ $t("nav.equipement") }}
           </RouterLink>
           <RouterLink
             to="/team"
-            class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            class="border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             active-class="bg-orange-50 border-orange-600 text-orange"
           >
-            {{ $t('nav.team') }}
+            {{ $t("nav.team") }}
           </RouterLink>
+          <button
+            class="snipcart-checkout text-gray-500 pl-4 pr-4 py-2 font-medium"
+          >
+            {{ $t("nav.cart") }}
+            (<span class="snipcart-items-count text-gray-500"></span>)
+          </button>
           <!-- <RouterLink
             to="/contact"
             class=" border-black text-gray-500 d block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
@@ -187,11 +199,11 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
-import LanguageSelector from './LanguageSelector.vue'
+import { ref } from "vue";
+import { RouterLink } from "vue-router";
+import LanguageSelector from "./LanguageSelector.vue";
 
-const isOpen = ref(false)
+const isOpen = ref(false);
 </script>
 
 <style scoped>
