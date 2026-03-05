@@ -245,62 +245,70 @@ const { t } = useI18n()
 /*
   ─────────────────────────────────────────────────────────────
   PRODUCTS — modifie les prix ici directement
-  
-  IMPORTANT pour Snipcart :
-  - `url` doit pointer vers la page publique où ce composant est
-    rendu (ex: 'https://tonsite.com/equipement'). Snipcart visite
-    cette URL pour valider le prix côté serveur.
-  - `image` doit être une URL absolue publique de l'image.
+
+  `url` est généré dynamiquement via window.location.href :
+  cela fonctionne en dev (localhost), avec ngrok, et en prod
+  sans rien changer. Snipcart peut ainsi toujours crawler la page.
+
+  `image` doit être une URL absolue accessible publiquement.
+  En dev local, les images ne sont pas crawlables par Snipcart,
+  mais ça n'empêche pas le panier de fonctionner.
   ─────────────────────────────────────────────────────────────
 */
+
+const origin = typeof window !== 'undefined' ? window.location.origin : ''
+
+// Snipcart appellera /api/products?id=XXX pour valider chaque prix
+const apiUrl = (id) => `${origin}/api/products?id=${id}`
+
 const products = [
   {
     id: 'laniak-product-1',
     name: t('equipement.products.item1.title'),
     description: t('equipement.products.item1.description'),
-    price: 29.99,           // ← modifie le prix ici
-    url: '/equipement',     // ← URL absolue de ta page en prod
-    image: '/assets/Equipement1.jpg',
+    price: 29.99,           // ← modifie le prix ici (et dans api/products.js)
+    url: apiUrl('laniak-product-1'),
+    image: `${origin}/assets/Equipement1.jpg`,
   },
   {
     id: 'laniak-product-2',
     name: t('equipement.products.item2.title'),
     description: t('equipement.products.item2.description'),
-    price: 34.99,           // ← modifie le prix ici
-    url: '/equipement',
-    image: '/assets/Equipement2.jpg',
+    price: 34.99,           // ← modifie le prix ici (et dans api/products.js)
+    url: apiUrl('laniak-product-2'),
+    image: `${origin}/assets/Equipement2.jpg`,
   },
   {
     id: 'laniak-product-3',
     name: t('equipement.products.item3.title'),
     description: t('equipement.products.item3.description'),
-    price: 24.99,           // ← modifie le prix ici
-    url: '/equipement',
-    image: '/assets/Equipement3.jpg',
+    price: 24.99,           // ← modifie le prix ici (et dans api/products.js)
+    url: apiUrl('laniak-product-3'),
+    image: `${origin}/assets/Equipement3.jpg`,
   },
   {
     id: 'laniak-product-4',
     name: t('equipement.products.item4.title'),
     description: t('equipement.products.item4.description'),
-    price: 39.99,           // ← modifie le prix ici
-    url: '/equipement',
-    image: '/assets/Equipement4.jpg',
+    price: 39.99,           // ← modifie le prix ici (et dans api/products.js)
+    url: apiUrl('laniak-product-4'),
+    image: `${origin}/assets/Equipement4.jpg`,
   },
   {
     id: 'laniak-product-5',
     name: t('equipement.products.item5.title'),
     description: t('equipement.products.item5.description'),
-    price: 19.99,           // ← modifie le prix ici
-    url: '/equipement',
-    image: '/assets/Equipement5.jpg',
+    price: 19.99,           // ← modifie le prix ici (et dans api/products.js)
+    url: apiUrl('laniak-product-5'),
+    image: `${origin}/assets/Equipement5.jpg`,
   },
   {
     id: 'laniak-product-6',
     name: t('equipement.products.item6.title'),
     description: t('equipement.products.item6.description'),
-    price: 44.99,           // ← modifie le prix ici
-    url: '/equipement',
-    image: '/assets/Equipement8.jpg',
+    price: 44.99,           // ← modifie le prix ici (et dans api/products.js)
+    url: apiUrl('laniak-product-6'),
+    image: `${origin}/assets/Equipement8.jpg`,
   },
 ]
 </script>
