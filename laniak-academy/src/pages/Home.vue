@@ -75,7 +75,7 @@
           >
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md text-orange"
               >
                 <svg
                   class="h-6 w-6"
@@ -103,7 +103,7 @@
 
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md text-orange"
               >
                 <svg
                   class="h-6 w-6"
@@ -131,7 +131,7 @@
 
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md text-orange"
               >
                 <svg
                   class="h-6 w-6"
@@ -159,7 +159,7 @@
 
             <div class="relative">
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md text-orange"
               >
                 <svg
                   class="h-6 w-6"
