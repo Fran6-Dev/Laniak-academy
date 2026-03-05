@@ -45,3 +45,27 @@ h1, h2, h3, h4 {
 body {
   font-family: 'Roboto';
 }
+
+/* Bouton Checkout */
+.snipcart-cart-button--highlight {
+  background-color: #f97316 !important;
+  border-color: #f97316 !important;
+  color: #ffffff !important;
+}
+
+.snipcart-cart-button--highlight:hover {
+  background-color: #ea6c0a !important;
+  border-color: #ea6c0a !important;
+}
+
+/* Icône flèche dans le bouton checkout */
+.snipcart-cart-button--highlight .snipcart__icon path {
+  fill: #ffffff !important;
+}
+
+/* Boutons secondaires (Continue shopping, etc.) */
+.snipcart-cart-button {
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
