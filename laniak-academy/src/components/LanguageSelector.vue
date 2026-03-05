@@ -1,5 +1,5 @@
 <template>
-  <div class="relative inline-block text-left z-[999]">
+  <div class="relative inline-block text-left z-[1]">
     <button
       @click="isOpen = !isOpen"
       type="button"
