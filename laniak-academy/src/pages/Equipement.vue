@@ -19,198 +19,61 @@
       </div>
     </div>
 
-    <!-- Products Grid -->
-    <div class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:text-center mb-12">
-          <h2 class="text-xl text-orange font-semibold tracking-wide uppercase">
-            {{ $t('equipement.features.title') }}
-          </h2>
-          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
-            {{ $t('equipement.features.subtitle') }}
-          </h3>
-          <p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-            {{ $t('equipement.features.description') }}
-          </p>
-        </div>
+<!-- Products Grid -->
+<div class="py-12 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:text-center mb-12">
+      <h2 class="text-xl text-orange font-semibold tracking-wide uppercase">
+        {{ $t('equipement.features.title') }}
+      </h2>
+      <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
+        {{ $t('equipement.features.subtitle') }}
+      </h3>
+      <p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
+        {{ $t('equipement.features.description') }}
+      </p>
+      <p class="mt-4 text-gray-500 italic">
+        {{ $t('equipement.features.contactInstagram') }}
+      </p>
+      <div class="mt-4 flex justify-center">
+        
+          <a href="https://www.instagram.com/laniakbasketballacademy/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-orange text-white font-semibold rounded-md hover:bg-black transition duration-300"
+        >
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          Instagram
+        </a>
+      </div>
+    </div>
 
         <!-- Products Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-          <!-- Product 1 -->
-          <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col">
+          <div
+            v-for="product in products"
+            :key="product.id"
+            class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col"
+          >
             <div class="overflow-hidden">
               <img
-                src="../assets/Equipement1.jpg"
+                :src="product.image"
                 alt="Laniak Product"
-                class="w-full h-64 object-cover object-center group-hover:opacity-75 transition duration-300"
+                class="w-full h-96 object-cover object-center group-hover:opacity-75 transition duration-300"
               />
             </div>
             <div class="p-6 flex flex-col flex-1">
-              <h3 class="text-lg font-medium text-gray-900">{{ $t('equipement.products.item1.title') }}</h3>
-              <p class="mt-2 text-sm text-gray-500 flex-1">{{ $t('equipement.products.item1.description') }}</p>
+              <h3 class="text-lg font-medium text-gray-900">{{ product.name }}</h3>
+              <p class="mt-2 text-sm text-gray-500 flex-1">{{ product.description }}</p>
               <div class="mt-4 flex items-center justify-between">
-                <span class="text-xl font-bold text-orange">{{ products[0].price }} €</span>
-                <button
-                  class="snipcart-add-item bg-orange text-white px-4 py-2 rounded-md font-semibold hover:bg-black transition duration-300 text-sm"
-                  :data-item-id="products[0].id"
-                  :data-item-price="products[0].price"
-                  :data-item-url="products[0].url"
-                  :data-item-name="products[0].name"
-                  :data-item-image="products[0].image"
-                  :data-item-description="products[0].description"
-                >
-                  {{ $t('equipement.addToCart') || 'Ajouter au panier' }}
-                </button>
+                <span class="text-xl font-bold text-orange">{{ product.price }} €</span>
+                <span class="text-sm text-gray-500 italic">
+                </span>
               </div>
             </div>
           </div>
-
-          <!-- Product 2 -->
-          <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col">
-            <div class="overflow-hidden">
-              <img
-                src="../assets/Equipement2.jpg"
-                alt="Laniak Product"
-                class="w-full h-64 object-cover object-center group-hover:opacity-75 transition duration-300"
-              />
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <h3 class="text-lg font-medium text-gray-900">{{ $t('equipement.products.item2.title') }}</h3>
-              <p class="mt-2 text-sm text-gray-500 flex-1">{{ $t('equipement.products.item2.description') }}</p>
-              <div class="mt-4 flex items-center justify-between">
-                <span class="text-xl font-bold text-orange">{{ products[1].price }} €</span>
-                <button
-                  class="snipcart-add-item bg-orange text-white px-4 py-2 rounded-md font-semibold hover:bg-black transition duration-300 text-sm"
-                  :data-item-id="products[1].id"
-                  :data-item-price="products[1].price"
-                  :data-item-url="products[1].url"
-                  :data-item-name="products[1].name"
-                  :data-item-image="products[1].image"
-                  :data-item-description="products[1].description"
-                >
-                  {{ $t('equipement.addToCart') || 'Ajouter au panier' }}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 3 -->
-          <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col">
-            <div class="overflow-hidden">
-              <img
-                src="../assets/Equipement3.jpg"
-                alt="Laniak Product"
-                class="w-full h-64 object-cover object-center group-hover:opacity-75 transition duration-300"
-              />
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <h3 class="text-lg font-medium text-gray-900">{{ $t('equipement.products.item3.title') }}</h3>
-              <p class="mt-2 text-sm text-gray-500 flex-1">{{ $t('equipement.products.item3.description') }}</p>
-              <div class="mt-4 flex items-center justify-between">
-                <span class="text-xl font-bold text-orange">{{ products[2].price }} €</span>
-                <button
-                  class="snipcart-add-item bg-orange text-white px-4 py-2 rounded-md font-semibold hover:bg-black transition duration-300 text-sm"
-                  :data-item-id="products[2].id"
-                  :data-item-price="products[2].price"
-                  :data-item-url="products[2].url"
-                  :data-item-name="products[2].name"
-                  :data-item-image="products[2].image"
-                  :data-item-description="products[2].description"
-                >
-                  {{ $t('equipement.addToCart') || 'Ajouter au panier' }}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 4 -->
-          <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col">
-            <div class="overflow-hidden">
-              <img
-                src="../assets/Equipement4.jpg"
-                alt="Laniak Product"
-                class="w-full h-64 object-cover object-center group-hover:opacity-75 transition duration-300"
-              />
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <h3 class="text-lg font-medium text-gray-900">{{ $t('equipement.products.item4.title') }}</h3>
-              <p class="mt-2 text-sm text-gray-500 flex-1">{{ $t('equipement.products.item4.description') }}</p>
-              <div class="mt-4 flex items-center justify-between">
-                <span class="text-xl font-bold text-orange">{{ products[3].price }} €</span>
-                <button
-                  class="snipcart-add-item bg-orange text-white px-4 py-2 rounded-md font-semibold hover:bg-black transition duration-300 text-sm"
-                  :data-item-id="products[3].id"
-                  :data-item-price="products[3].price"
-                  :data-item-url="products[3].url"
-                  :data-item-name="products[3].name"
-                  :data-item-image="products[3].image"
-                  :data-item-description="products[3].description"
-                >
-                  {{ $t('equipement.addToCart') || 'Ajouter au panier' }}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 5 -->
-          <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col">
-            <div class="overflow-hidden">
-              <img
-                src="../assets/Equipement5.jpg"
-                alt="Laniak Product"
-                class="w-full h-64 object-cover object-center group-hover:opacity-75 transition duration-300"
-              />
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <h3 class="text-lg font-medium text-gray-900">{{ $t('equipement.products.item5.title') }}</h3>
-              <p class="mt-2 text-sm text-gray-500 flex-1">{{ $t('equipement.products.item5.description') }}</p>
-              <div class="mt-4 flex items-center justify-between">
-                <span class="text-xl font-bold text-orange">{{ products[4].price }} €</span>
-                <button
-                  class="snipcart-add-item bg-orange text-white px-4 py-2 rounded-md font-semibold hover:bg-black transition duration-300 text-sm"
-                  :data-item-id="products[4].id"
-                  :data-item-price="products[4].price"
-                  :data-item-url="products[4].url"
-                  :data-item-name="products[4].name"
-                  :data-item-image="products[4].image"
-                  :data-item-description="products[4].description"
-                >
-                  {{ $t('equipement.addToCart') || 'Ajouter au panier' }}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 6 -->
-          <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col">
-            <div class="overflow-hidden">
-              <img
-                src="../assets/Equipement8.jpg"
-                alt="Laniak Product"
-                class="w-full h-64 object-cover object-center group-hover:opacity-75 transition duration-300"
-              />
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <h3 class="text-lg font-medium text-gray-900">{{ $t('equipement.products.item6.title') }}</h3>
-              <p class="mt-2 text-sm text-gray-500 flex-1">{{ $t('equipement.products.item6.description') }}</p>
-              <div class="mt-4 flex items-center justify-between">
-                <span class="text-xl font-bold text-orange">{{ products[5].price }} €</span>
-                <button
-                  class="snipcart-add-item bg-orange text-white px-4 py-2 rounded-md font-semibold hover:bg-black transition duration-300 text-sm"
-                  :data-item-id="products[5].id"
-                  :data-item-price="products[5].price"
-                  :data-item-url="products[5].url"
-                  :data-item-name="products[5].name"
-                  :data-item-image="products[5].image"
-                  :data-item-description="products[5].description"
-                >
-                  {{ $t('equipement.addToCart') || 'Ajouter au panier' }}
-                </button>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
@@ -224,8 +87,8 @@
         </h2>
         <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div class="inline-flex rounded-md shadow">
-            <a
-              href="https://www.instagram.com/laniakbasketballacademy/"
+            
+              <a href="https://www.instagram.com/laniakbasketballacademy/"
               class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-orange bg-white hover:bg-gray-50 transition duration-300 ease-in-out"
             >
               {{ $t('equipement.cta.button') }}
@@ -238,94 +101,67 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-/*
-  ─────────────────────────────────────────────────────────────
-  PRODUCTS — modifie les prix ici directement
-
-  `url` est généré dynamiquement via window.location.href :
-  cela fonctionne en dev (localhost), avec ngrok, et en prod
-  sans rien changer. Snipcart peut ainsi toujours crawler la page.
-
-  `image` doit être une URL absolue accessible publiquement.
-  En dev local, les images ne sont pas crawlables par Snipcart,
-  mais ça n'empêche pas le panier de fonctionner.
-  ─────────────────────────────────────────────────────────────
-*/
-
-const origin = typeof window !== 'undefined' ? window.location.origin : ''
-
-// Snipcart appellera /api/products?id=XXX pour valider chaque prix
-const apiUrl = (id) => `${origin}/api/products?id=${id}`
-
-const products = [
+const products = computed(() => [
   {
-    id: 'laniak-product-1',
+    id: 1,
     name: t('equipement.products.item1.title'),
     description: t('equipement.products.item1.description'),
-    price: 29.99,           // ← modifie le prix ici (et dans api/products.js)
-    url: apiUrl('laniak-product-1'),
-    image: `${origin}/assets/Equipement1.jpg`,
+    price: 29.99,
+    image: new URL('../assets/Equipement1.jpg', import.meta.url).href,
   },
   {
-    id: 'laniak-product-2',
+    id: 2,
     name: t('equipement.products.item2.title'),
     description: t('equipement.products.item2.description'),
-    price: 34.99,           // ← modifie le prix ici (et dans api/products.js)
-    url: apiUrl('laniak-product-2'),
-    image: `${origin}/assets/Equipement2.jpg`,
+    price: 34.99,
+    image: new URL('../assets/Equipement2.jpg', import.meta.url).href,
   },
   {
-    id: 'laniak-product-3',
+    id: 3,
     name: t('equipement.products.item3.title'),
     description: t('equipement.products.item3.description'),
-    price: 24.99,           // ← modifie le prix ici (et dans api/products.js)
-    url: apiUrl('laniak-product-3'),
-    image: `${origin}/assets/Equipement3.jpg`,
+    price: 24.99,
+    image: new URL('../assets/Equipement3.jpg', import.meta.url).href,
   },
   {
-    id: 'laniak-product-4',
+    id: 4,
     name: t('equipement.products.item4.title'),
     description: t('equipement.products.item4.description'),
-    price: 39.99,           // ← modifie le prix ici (et dans api/products.js)
-    url: apiUrl('laniak-product-4'),
-    image: `${origin}/assets/Equipement4.jpg`,
+    price: 39.99,
+    image: new URL('../assets/Equipement4.jpg', import.meta.url).href,
   },
   {
-    id: 'laniak-product-5',
+    id: 5,
     name: t('equipement.products.item5.title'),
     description: t('equipement.products.item5.description'),
-    price: 19.99,           // ← modifie le prix ici (et dans api/products.js)
-    url: apiUrl('laniak-product-5'),
-    image: `${origin}/assets/Equipement5.jpg`,
+    price: 19.99,
+    image: new URL('../assets/Equipement5.jpg', import.meta.url).href,
   },
   {
-    id: 'laniak-product-6',
+    id: 6,
     name: t('equipement.products.item6.title'),
     description: t('equipement.products.item6.description'),
-    price: 44.99,           // ← modifie le prix ici (et dans api/products.js)
-    url: apiUrl('laniak-product-6'),
-    image: `${origin}/assets/Equipement8.jpg`,
+    price: 44.99,
+    image: new URL('../assets/Equipement6.jpg', import.meta.url).href,
   },
-]
+  {
+    id: 7,
+    name: t('equipement.products.item7.title'),
+    description: t('equipement.products.item7.description'),
+    price: 29.99,
+    image: new URL('../assets/Equipement9.jpeg', import.meta.url).href,
+  },
+  {
+    id: 8,
+    name: t('equipement.products.item8.title'),
+    description: t('equipement.products.item8.description'),
+    price: 29.99,
+    image: new URL('../assets/Equipement8.jpeg', import.meta.url).href,
+  },
+])
 </script>
-
-<style scoped>
-.aspect-w-1 {
-  position: relative;
-  padding-bottom: 100%;
-}
-
-.aspect-w-1 > * {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-</style>

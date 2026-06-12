@@ -9,7 +9,6 @@
     "equipement": "Shop",
     "contactUs": "Contact Us",
     "cart": "My cart"
-
   },
   "home": {
     "hero": {
@@ -150,8 +149,8 @@
     "subtitle": "Discover the passionate experts who make Laniak Academy an exceptional platform",
     "members": {
       "modibo": {
-        "name": "Niakate Modibo",
-        "role": "Founding President"
+        "name": "Niakate Adama",
+        "role": "President"
       },
       "jeanPierre": {
         "name": "Louvenor Jean-Pierre",
@@ -161,9 +160,9 @@
         "name": "Raho Adbel-Galile",
         "role": "Secretary"
       },
-      "anderson": {
+      "amandine": {
         "name": "Dieujust Anderson",
-        "role": "Technical Advisor"
+        "role": "Administrative Manager"
       },
       "rokiatou": {
         "name": "Niakate Rokiatou",
@@ -296,36 +295,41 @@
     "features": {
       "title": "Our Products",
       "subtitle": "Quality equipment for your performance",
-      "description": "A selection of high-quality products for demanding players."
+      "description": "A selection of high-quality products for demanding players.",
+      "contactInstagram": "For all purchases, contact us directly on Instagram"
     },
     "products": {
       "item1": {
-        "title": "Laniak Pro Jersey",
-        "description": "Professional jersey with sweat-wicking technology"
+        "title": "Laniak Pro Black T-shirt",
+        "description": "Professional t-shirt with moisture-wicking technology"
       },
       "item2": {
-        "title": "Laniak Elite Shorts",
-        "description": "Performance shorts with modern design and optimal comfort"
+        "title": "Laniak Pro White T-shirt",
+        "description": "Professional t-shirt with moisture-wicking technology"
       },
       "item3": {
-        "title": "Laniak Signature Ball",
-        "description": "Official ball with excellent grip"
+        "title": "Laniak Pro Black Sweatshirt",
+        "description": "Professional sweatshirt with moisture-wicking technology"
       },
       "item4": {
-        "title": "Laniak Premium Bag",
-        "description": "Spacious and durable sports bag for all your equipment"
+        "title": "Laniak Elite Black Arm Sleeve",
+        "description": "Performance arm sleeve with modern design and optimal comfort"
       },
       "item5": {
-        "title": "Laniak Court Shoes",
-        "description": "Basketball shoes with optimal support and cushioning"
+        "title": "Laniak Elite White Arm Sleeve",
+        "description": "Performance arm sleeve with modern design and optimal comfort"
       },
       "item6": {
-        "title": "Laniak Accessories",
-        "description": "Complete range of accessories for your training"
+        "title": "Laniak Pro Black Socks",
+        "description": "Performance socks with modern design and optimal comfort"
       },
       "item7": {
-        "title": "Training Equipment",
-        "description": "Professional equipment for your development"
+        "title": "Laniak Pro White Socks",
+        "description": "Performance socks with modern design and optimal comfort"
+      },
+      "item8": {
+        "title": "Pro Black Cap",
+        "description": "Cap with modern design and optimal comfort"
       }
     },
     "cta": {
@@ -334,4 +338,4 @@
       "button": "Contact Us"
     }
   }
-} 
+}

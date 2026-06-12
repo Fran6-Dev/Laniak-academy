@@ -65,7 +65,7 @@
         <div class="flex items-center gap-4">
           <LanguageSelector class="hidden sm:block" />
 
-          <!-- Cart Button Desktop -->
+          <!-- Cart Button Desktop
           <button class="snipcart-checkout cart-btn hidden sm:flex" aria-label="Ouvrir le panier">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@
             </svg>
             <span class="cart-label">{{ $t("nav.cart") }}</span>
             <span class="cart-badge snipcart-items-count"></span>
-          </button>
+          </button> -->
 
           <!-- Mobile menu toggle -->
           <div class="-mr-2 flex items-center sm:hidden">
@@ -152,7 +152,7 @@
           </RouterLink>
 
           <!-- Cart Button Mobile -->
-          <button class="snipcart-checkout mobile-cart-btn">
+          <!-- <button class="snipcart-checkout mobile-cart-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
@@ -169,7 +169,7 @@
             </svg>
             {{ $t("nav.cart") }}
             <span class="cart-badge snipcart-items-count"></span>
-          </button>
+          </button> -->
 
           <div class="px-6 py-2">
             <LanguageSelector />

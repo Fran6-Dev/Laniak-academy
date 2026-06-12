@@ -20,9 +20,9 @@
             <div class="px-4 py-5 sm:p-6">
               <div class="flex flex-col items-center">
                 <div class="h-32 w-32 rounded-full bg-orange-100 flex items-center justify-center mb-4">
-                  <img src="../assets/mniakate.jpg" :alt="$t('team.members.modibo.name')" class="w-full h-full object-cover rounded-full">
+                  <img src="" class="w-full h-full object-cover rounded-full">
                 </div>
-                <h3 class="text-lg font-medium text-black">{{ $t('team.members.modibo.name') }}</h3>
+                <h3 class="text-lg font-medium text-black">Niakate Adama</h3>
                 <p class="text-orange">{{ $t('team.members.modibo.role') }}</p>
               </div>
             </div>
@@ -46,7 +46,7 @@
             <div class="px-4 py-5 sm:p-6">
               <div class="flex flex-col items-center">
                 <div class="h-32 w-32 rounded-full bg-orange-100 flex items-center justify-center mb-4">
-                  <img src="../assets/abdel.jpg" :alt="$t('team.members.abdel.name')" class="w-full h-full object-cover rounded-full">
+                  <img src="../assets/abdel.jpeg" :alt="$t('team.members.abdel.name')" class="w-full h-full object-cover rounded-full">
                 </div>
                 <h3 class="text-lg font-medium text-black">{{ $t('team.members.abdel.name') }}</h3>
                 <p class="text-orange">{{ $t('team.members.abdel.role') }}</p>
@@ -62,10 +62,10 @@
             <div class="px-4 py-5 sm:p-6">
               <div class="flex flex-col items-center">
                 <div class="h-32 w-32 rounded-full bg-orange-100 flex items-center justify-center mb-4">
-                  <img src="../assets/anderson.jpg" :alt="$t('team.members.anderson.name')" class="w-full h-full object-cover rounded-full">
+                  <img src="../assets/amandine.jpeg" :alt="$t('team.members.amandine.name')" class="w-full h-full object-cover rounded-full">
                 </div>
-                <h3 class="text-lg font-medium text-black">{{ $t('team.members.anderson.name') }}</h3>
-                <p class="text-orange">{{ $t('team.members.anderson.role') }}</p>
+                <h3 class="text-lg font-medium text-black">Amandine Renault</h3>
+                <p class="text-orange">{{ $t('team.members.amandine.role') }}</p>
               </div>
             </div>
           </div>

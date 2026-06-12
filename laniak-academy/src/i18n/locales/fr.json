@@ -149,8 +149,8 @@
     "subtitle": "Découvrez les experts passionnés qui font de Laniak Academy une plateforme d'exception",
     "members": {
       "modibo": {
-        "name": "Niakate Modibo",
-        "role": "Président Fondateur"
+        "name": "Niakate Adama",
+        "role": "Président"
       },
       "jeanPierre": {
         "name": "Louvenor Jean-Pierre",
@@ -160,9 +160,9 @@
         "name": "Raho Adbel-Galile",
         "role": "Secrétaire"
       },
-      "anderson": {
+      "amandine": {
         "name": "Dieujust Anderson",
-        "role": "Conseiller Technique"
+        "role": "Responsable administrative"
       },
       "rokiatou": {
         "name": "Niakate Rokiatou",
@@ -295,7 +295,9 @@
     "features": {
       "title": "Nos Produits",
       "subtitle": "Équipement de qualité pour votre performance",
-      "description": "Une sélection de produits de haute qualité pour les joueurs exigeants."
+      "description": "Une sélection de produits de haute qualité pour les joueurs exigeants.",
+      "contactInstagram": "Pour tous les achats, contactez-nous directement sur Instagram"
+
     },
     "products": {
       "item1": {
@@ -321,6 +323,14 @@
       "item6": {
         "title": "Chaussettes Laniak Pro Noir",
         "description": "Chaussettes de performance avec design moderne et confort optimal"
+      },
+      "item7": {
+        "title": "Chaussettes Laniak Pro Blanche",
+        "description": "Chaussettes de performance avec design moderne et confort optimal"
+      },
+      "item8": {
+        "title": "Casquette Pro Noir",
+        "description": "Casquette avec design moderne et confort optimal"
       }
     },
     "cta": {
