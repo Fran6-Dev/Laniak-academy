@@ -147,14 +147,14 @@ const products = computed(() => [
     name: t('equipement.products.item6.title'),
     description: t('equipement.products.item6.description'),
     price: 44.99,
-    image: new URL('../assets/Equipement6.jpg', import.meta.url).href,
+    image: new URL('../assets/Equipement10.jpeg', import.meta.url).href,
   },
   {
     id: 7,
     name: t('equipement.products.item7.title'),
     description: t('equipement.products.item7.description'),
     price: 29.99,
-    image: new URL('../assets/Equipement9.jpeg', import.meta.url).href,
+    image: new URL('../assets/Equipement11.jpeg', import.meta.url).href,
   },
   {
     id: 8,
