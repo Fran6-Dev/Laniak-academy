@@ -51,17 +51,17 @@
     </div>
 
         <!-- Products Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           <div
             v-for="product in products"
             :key="product.id"
             class="group relative bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col"
           >
-            <div class="overflow-hidden">
+            <div class="h-full overflow-hidden bg-gray-50">
               <img
                 :src="product.image"
                 alt="Laniak Product"
-                class="w-full h-96 object-cover object-center group-hover:opacity-75 transition duration-300"
+                class="w-full h-full object-cover object-center group-hover:opacity-75 transition duration-300"
               />
             </div>
             <div class="p-6 flex flex-col flex-1">
@@ -122,6 +122,20 @@ const products = computed(() => [
     image: new URL('../assets/Equipement2.jpg', import.meta.url).href,
   },
   {
+    id: 9,
+    name: t('equipement.products.item2.title'),
+    description: t('equipement.products.item1.description'),
+    price: 29.99,
+    image: new URL('../assets/Equipement12.jpeg', import.meta.url).href,
+  },
+  {
+    id: 10,
+    name: t('equipement.products.item2.title'),
+    description: t('equipement.products.item1.description'),
+    price: 29.99,
+    image: new URL('../assets/Equipement13.jpeg', import.meta.url).href,
+  },
+  {
     id: 3,
     name: t('equipement.products.item3.title'),
     description: t('equipement.products.item3.description'),
@@ -163,5 +177,6 @@ const products = computed(() => [
     price: 29.99,
     image: new URL('../assets/Equipement8.jpeg', import.meta.url).href,
   },
+  
 ])
 </script>
